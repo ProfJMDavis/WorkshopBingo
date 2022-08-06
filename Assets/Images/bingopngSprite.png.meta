@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 68ee63948059f7b41baf3cec1402a495
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bingopngSprite_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 573
+        width: 405
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce10bcadeb68845b4837a0508ba25b
+      internalID: 939670265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 492
+        width: 404
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a425a27d9116ce243966c3b14d5bccb2
+      internalID: 2053366088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 492.125
+        width: 80.6
+        height: 81.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2520e1c3feb6f4047999711b7bf03e6b
+      internalID: -69692503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 411
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8decdc4643ec80244b7988fba38da56f
+      internalID: 229319922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 411
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f05ee1258014eb4db4300505172df4a
+      internalID: 1354134708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 411
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d968b54e49ddd42bc978099fc115b8
+      internalID: -1101699524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 411
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eea0cba40b3294586009a69e19a5da
+      internalID: -99595962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_14
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 411
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f86f359d157976458f8b9a6fe9155e5
+      internalID: -1456879658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 250
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80937aa74e386f44d858e4639204f28c
+      internalID: 1149374196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 339
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece552ccefc5b5b49a935c045fd18456
+      internalID: -1255053512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bingopngSprite_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 14
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041c563c1928c414393f6e1ae46efdb3
+      internalID: 1471714168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bingopngSprite_23: 803375869
+      bingopngSprite_4: 656641528
+      bingopngSprite_0: 939670265
+      bingopngSprite_27: 1534787974
+      bingopngSprite_33: -1378688977
+      bingopngSprite_37: 717817535
+      bingopngSprite_6: 2028558405
+      bingopngSprite_17: 914244992
+      bingopngSprite_31: -1117454380
+      bingopngSprite_1: 329751381
+      bingopngSprite_3: 2070661465
+      bingopngSprite_5: -390681256
+      bingopngSprite_19: 1736732926
+      bingopngSprite_13: -99595962
+      bingopngSprite_32: -1702180230
+      bingopngSprite_10: 229319922
+      bingopngSprite_14: -1456879658
+      bingopngSprite_39: 1471714168
+      bingopngSprite_21: 1011978212
+      bingopngSprite_7: 2053366088
+      bingopngSprite_18: 1438249902
+      bingopngSprite_25: 709662784
+      bingopngSprite_30: 620071692
+      bingopngSprite_24: 1332837310
+      bingopngSprite_34: -929407871
+      bingopngSprite_28: -1816390041
+      bingopngSprite_16: -1120178813
+      bingopngSprite_2: -1786598126
+      bingopngSprite_22: 1149374196
+      bingopngSprite_38: -915609941
+      bingopngSprite_11: 1354134708
+      bingopngSprite_12: -1101699524
+      bingopngSprite_8: -69692503
+      bingopngSprite_36: -235226879
+      bingopngSprite_15: 1636245258
+      bingopngSprite_20: 796411981
+      bingopngSprite_35: -1255053512
+      bingopngSprite_26: -1464816932
+      bingopngSprite_29: 1538531812
+      bingopngSprite_9: 1203383461
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
