@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
@@ -15,12 +15,13 @@ function buttonHandler() {
     `@media print {
         img { display: none; }
         #${imgId} { display: block; }
-      }`;
+     }`;
 
   if (window.print) {
     window.print();
   }
 }
+
 buttons.forEach(button => {
   button.addEventListener("click", buttonHandler);
 });
