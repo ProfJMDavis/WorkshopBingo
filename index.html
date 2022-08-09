@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
+  const buttons = document.querySelectorAll("button");
+
+function buttonHandler() {
+  const imgId = this.querySelector("img").getAttribute("id");
+
+  document.querySelector('style').textContent =
+    `@media print {
+        img { display: none; }
+        #${imgId} { display: block; }
+      }`;
+
+  if (window.print) {
+    window.print();
+  }
+}
+
+buttons.forEach(button => {
+  button.addEventListener("click", buttonHandler);
+});
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted this project with GitHub Pages.</p>
