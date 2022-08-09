@@ -5,27 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
 </head>
-<script>
-const buttons = document.querySelectorAll("button");
-
-function buttonHandler() {
-  const imgId = this.querySelector("img").getAttribute("id");
-
-  document.querySelector('style').textContent =
-    `@media print {
-        img { display: none; }
-        #${imgId} { display: block; }
-     }`;
-
-  if (window.print) {
-    window.print();
-  }
-}
-
-buttons.forEach(button => {
-  button.addEventListener("click", buttonHandler);
-});
-</script>
+    <script type="text/javascript">
+        function VoucherSourcetoPrint(source) {
+            return "<html><head><script>function step1(){\n" +
+                    "setTimeout('step2()', 10);}\n" +
+                    "function step2(){window.print();window.close()}\n" +
+                    "</scri" + "pt></head><body onload='step1()'>\n" +
+                    "<img src='" + source + "' /></body></html>";
+        }
+        function VoucherPrint(source) {
+            Pagelink = "about:blank";
+            var pwa = window.open(Pagelink, "_new");
+            pwa.document.open();
+            pwa.document.write(VoucherSourcetoPrint(source));
+            pwa.document.close();
+        }
+    </script>
+    <style type="text/css">
+        .myButton
+        {
+            background-color: #77b55a;
+            border: 1px solid #4b8f29;
+            display: inline-block;
+            cursor: pointer;
+            color: #f0ebf0;
+            font-family: arial;
+            font-size: 13px;
+            font-weight: bold;
+			margin: 5px;
+            padding: 7px 35px;
+            text-decoration: none;
+        }
+    </style>
     <body>
 <h1>Hello World</h1>
 <p>I've hosted this project with GitHub Pages.</p>
