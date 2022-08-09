@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
 </head>
- <script>
-  const buttons = document.querySelectorAll("button");
+<script>
+const buttons = document.querySelectorAll("button");
 
 function buttonHandler() {
   const imgId = this.querySelector("img").getAttribute("id");
@@ -21,7 +21,6 @@ function buttonHandler() {
     window.print();
   }
 }
-
 buttons.forEach(button => {
   button.addEventListener("click", buttonHandler);
 });
@@ -30,6 +29,5 @@ buttons.forEach(button => {
 <h1>Hello World</h1>
 <p>I've hosted this project with GitHub Pages.</p>
   <button><img id="img" src="/Images/BingoCard.png" alt=""></button>
-
- </body>
+</body>
 </html>
