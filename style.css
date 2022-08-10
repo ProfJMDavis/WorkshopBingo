@@ -1,0 +1,407 @@
+.Row_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 48;
+}
+.Green_Square {
+  background-image: url("Green_Square.png");
+  position: absolute;
+  left: 10px;
+  top: 176px;
+  width: 64px;
+  height: 64px;
+  z-index: 47;
+}
+.Purple_Square {
+  background-image: url("Purple_Square.png");
+  position: absolute;
+  left: 78px;
+  top: 176px;
+  width: 64px;
+  height: 64px;
+  z-index: 46;
+}
+.Blue_Square {
+  background-image: url("Blue_Square.png");
+  position: absolute;
+  left: 146px;
+  top: 176px;
+  width: 64px;
+  height: 64px;
+  z-index: 45;
+}
+.Red_Square {
+  background-image: url("Red_Square.png");
+  position: absolute;
+  left: 214px;
+  top: 176px;
+  width: 64px;
+  height: 64px;
+  z-index: 44;
+}
+.Green_Square_Two {
+  background-image: url("Green_Square_Two.png");
+  position: absolute;
+  left: 282px;
+  top: 176px;
+  width: 64px;
+  height: 64px;
+  z-index: 43;
+}
+.Row_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 41;
+}
+.Blue_Square {
+  background-image: url("Blue_Square.png");
+  position: absolute;
+  left: 10px;
+  top: 244px;
+  width: 64px;
+  height: 64px;
+  z-index: 40;
+}
+.Red_Square {
+  background-image: url("Red_Square.png");
+  position: absolute;
+  left: 78px;
+  top: 244px;
+  width: 64px;
+  height: 64px;
+  z-index: 39;
+}
+.Green_Square {
+  background-image: url("Green_Square.png");
+  position: absolute;
+  left: 146px;
+  top: 244px;
+  width: 64px;
+  height: 64px;
+  z-index: 38;
+}
+.Purple_Square {
+  background-image: url("Purple_Square.png");
+  position: absolute;
+  left: 214px;
+  top: 244px;
+  width: 64px;
+  height: 64px;
+  z-index: 37;
+}
+.Blue_Square_Two {
+  background-image: url("Blue_Square_Two.png");
+  position: absolute;
+  left: 282px;
+  top: 244px;
+  width: 64px;
+  height: 64px;
+  z-index: 36;
+}
+.Row_3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 34;
+}
+.Purple_Square {
+  background-image: url("Purple_Square.png");
+  position: absolute;
+  left: 10px;
+  top: 312px;
+  width: 64px;
+  height: 64px;
+  z-index: 33;
+}
+.Green_Square {
+  background-image: url("Green_Square.png");
+  position: absolute;
+  left: 78px;
+  top: 312px;
+  width: 64px;
+  height: 64px;
+  z-index: 32;
+}
+.Free_Square {
+  background-image: url("Free_Square.png");
+  position: absolute;
+  left: 146px;
+  top: 312px;
+  width: 64px;
+  height: 64px;
+  z-index: 31;
+}
+.Blue_Square {
+  background-image: url("Blue_Square.png");
+  position: absolute;
+  left: 214px;
+  top: 312px;
+  width: 64px;
+  height: 64px;
+  z-index: 30;
+}
+.Red_Square {
+  background-image: url("Red_Square.png");
+  position: absolute;
+  left: 282px;
+  top: 312px;
+  width: 64px;
+  height: 64px;
+  z-index: 29;
+}
+.Row_4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 27;
+}
+.Red_Square {
+  background-image: url("Red_Square.png");
+  position: absolute;
+  left: 10px;
+  top: 380px;
+  width: 64px;
+  height: 64px;
+  z-index: 26;
+}
+.Purple_Square {
+  background-image: url("Purple_Square.png");
+  position: absolute;
+  left: 78px;
+  top: 380px;
+  width: 64px;
+  height: 64px;
+  z-index: 25;
+}
+.Red_Square_Two {
+  background-image: url("Red_Square_Two.png");
+  position: absolute;
+  left: 146px;
+  top: 380px;
+  width: 64px;
+  height: 64px;
+  z-index: 24;
+}
+.Green_Square {
+  background-image: url("Green_Square.png");
+  position: absolute;
+  left: 214px;
+  top: 380px;
+  width: 64px;
+  height: 64px;
+  z-index: 23;
+}
+.Blue_Square {
+  background-image: url("Blue_Square.png");
+  position: absolute;
+  left: 282px;
+  top: 380px;
+  width: 64px;
+  height: 64px;
+  z-index: 22;
+}
+.Row_5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 20;
+}
+.Purple_Square {
+  background-image: url("Purple_Square.png");
+  position: absolute;
+  left: 10px;
+  top: 448px;
+  width: 64px;
+  height: 64px;
+  z-index: 19;
+}
+.Green_Square {
+  background-image: url("Green_Square.png");
+  position: absolute;
+  left: 78px;
+  top: 448px;
+  width: 64px;
+  height: 64px;
+  z-index: 18;
+}
+.Purple_Square_Two {
+  background-image: url("Purple_Square_Two.png");
+  position: absolute;
+  left: 146px;
+  top: 448px;
+  width: 64px;
+  height: 64px;
+  z-index: 17;
+}
+.Blue_Square {
+  background-image: url("Blue_Square.png");
+  position: absolute;
+  left: 214px;
+  top: 448px;
+  width: 64px;
+  height: 64px;
+  z-index: 16;
+}
+.Red_Square {
+  background-image: url("Red_Square.png");
+  position: absolute;
+  left: 282px;
+  top: 448px;
+  width: 64px;
+  height: 64px;
+  z-index: 15;
+}
+.BlackUnderlay {
+  background-image: url("BlackUnderlay.png");
+  position: absolute;
+  left: 6px;
+  top: 172px;
+  width: 344px;
+  height: 344px;
+  z-index: 13;
+}
+.Get_1_square_credit_per_program {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 42px;
+  top: 70.589px;
+  z-index: 12;
+}
+.__Crafts {
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 234px;
+  top: 144px;
+  z-index: 11;
+}
+.__Digital_Literacy {
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 233px;
+  top: 118.421px;
+  z-index: 10;
+}
+.__Adulting_Life_Skills {
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 66px;
+  top: 143.421px;
+  z-index: 9;
+}
+.__Information_Literacy {
+  font-size: 11px;
+  font-family: "Berlin Sans FB Demi";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 66.062px;
+  top: 115.633px;
+  z-index: 8;
+}
+.Attend_library_programs_and_workshops {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 42px;
+  top: 46.589px;
+  z-index: 7;
+}
+.Library_Program_Bingo {
+  font-size: 30px;
+  font-family: "Berlin Sans FB Demi";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 17px;
+  top: 9.82px;
+  z-index: 6;
+}
+.InfLiteracy_copy_3 {
+  background-image: url("InfLiteracy copy 3.png");
+  position: absolute;
+  left: 17px;
+  top: 141px;
+  width: 42px;
+  height: 16px;
+  z-index: 5;
+}
+.InfLiteracy_copy_2 {
+  background-image: url("InfLiteracy copy 2.png");
+  position: absolute;
+  left: 188px;
+  top: 115px;
+  width: 42px;
+  height: 16px;
+  z-index: 4;
+}
+.InfLiteracy_copy {
+  background-image: url("InfLiteracy copy.png");
+  position: absolute;
+  left: 189px;
+  top: 142px;
+  width: 42px;
+  height: 16px;
+  z-index: 3;
+}
+.InfLiteracy {
+  background-image: url("InfLiteracy.png");
+  position: absolute;
+  left: 17px;
+  top: 115px;
+  width: 42px;
+  height: 16px;
+  z-index: 2;
+}
+.White {
+  background-image: url("White.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 356px;
+  height: 587px;
+  z-index: 1;
+}
+
+
+
+
