@@ -12,7 +12,7 @@
                     "setTimeout('step2()', 10);}\n" +
                     "function step2(){window.print();window.close()}\n" +
                     "</scri" + "pt></head><body onload='step1()'>\n" +
-                    "<img src='" + source + "' /></body></html>";
+                    "<iframe src='" + source + "' /iframe></body></html>";
         }
         function VoucherPrint(source) {
             Pagelink = "about:blank";
@@ -58,7 +58,7 @@
 <p>Attend Library programs and workshops.</p>
 <p>Get one square credit per program.</p>
 	    
-    	    <div style="width: 450px; float: left;" class="btn-group">
+    	    <div id= "frame" style="width: 450px; float: left;" class="btn-group">
 		    <input type="image" src="Images/Green_Square.png" onclick="ChangeTextDL()" style="border: solid;" height="80" width="80"/>
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
@@ -84,6 +84,7 @@
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Red_Square_Two.png" onclick="ChangeTextAD()" style="border: solid;" height="80" width="80"/>
+	    </div>
 <details open>
 <summary>This square can be filled by programs or workshops under the following Categories:</summary>
 <div id="divElement"><p>(Click a square to see a category description)</p></div>
