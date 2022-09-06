@@ -72,8 +72,8 @@
             text-decoration: none;
         }
 	    #photo {
-            border: 4px solid green;
-            padding: 4px;
+            border: 1px solid green;
+            padding: 2px;
         }
     </style>
     <body>
@@ -107,8 +107,6 @@
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Red_Square_Two.png" onclick="ChangeTextAD()" style="border: solid;" height="80" width="80"/>
-		    <!-- Define the button that will be used to take the screenshot -->
-		    <button onclick="takeshot()">Take Screenshot</button>
 		    </div>
 		    <br />
 <details open>
@@ -122,6 +120,8 @@
         <br />
 		    <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />
 		    <a href="#" onclick="VoucherPrint('output'); return false;" class="myButton">Print Card</a>
+		    <!-- Define the button that will be used to take the screenshot -->
+		    <button onclick="takeshot()"; class="myButton">Take Screenshot</button>
     </div>
 </body>
 </html>
