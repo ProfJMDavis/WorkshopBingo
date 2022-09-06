@@ -16,10 +16,10 @@
         }
         function VoucherPrint(source) {
             Pagelink = "about:blank";
-		var pwa = window.open(Pagelink, "_new");
-		pwa.document.open();
-		pwa.document.write(VoucherSourcetoPrint(source));
-		pwa.document.close();
+            var pwa = window.open(Pagelink, "_new");
+            pwa.document.open();
+            pwa.document.write(VoucherSourcetoPrint(source));
+            pwa.document.close();
         }
 	    function ChangeTextIL(){
 		document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
@@ -54,10 +54,9 @@
         }
     </style>
     <body>
-	    <iframe src="source" id="frame" width="1000" height ="1000">
-		    <h1>Library Program Bingo</h1>
-		    <p>Attend Library programs and workshops.</p>
-		    <p>Get one square credit per program.</p>
+<h1>Library Program Bingo</h1>
+<p>Attend Library programs and workshops.</p>
+<p>Get one square credit per program.</p>
 	    
     	    <div style="width: 450px; float: left;" class="btn-group">
 		    <input type="image" src="Images/Green_Square.png" onclick="ChangeTextDL()" style="border: solid;" height="80" width="80"/>
@@ -85,7 +84,6 @@
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Red_Square_Two.png" onclick="ChangeTextAD()" style="border: solid;" height="80" width="80"/>
-	    </iframe><br />
 <details open>
 <summary>This square can be filled by programs or workshops under the following Categories:</summary>
 <div id="divElement"><p>(Click a square to see a category description)</p></div>
