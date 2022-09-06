@@ -7,19 +7,25 @@
 	<link rel="stylesheet" href= "style.css">
 </head>
     <script type="text/javascript">
+	function print() {
+		    var frame = document.getElementById("frame");
+		    frame.contentWindow.focus();
+		    frame.contentWindow.print();
+      }
+	    
         function VoucherSourcetoPrint(source) {
             return "<html><head><script>function step1(){\n" +
                     "setTimeout('step2()', 10);}\n" +
                     "function step2(){window.print();window.close()}\n" +
                     "</scri" + "pt></head><body onload='step1()'>\n" +
-                    "<iframe src='" + source + "'></iframe></body></html>";
+                    "<img src='" + source + "' /></body></html>";
         }
         function VoucherPrint(source) {
             Pagelink = "about:blank";
-            var pwa = window.open(Pagelink, "_new");
-            pwa.document.open();
-            pwa.document.write(VoucherSourcetoPrint(source));
-            pwa.document.close();
+		var pwa = window.open(Pagelink, "_new");
+		pwa.document.open();
+		pwa.document.write(VoucherSourcetoPrint(source));
+		pwa.document.close();
         }
 	    function ChangeTextIL(){
 		document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
@@ -54,11 +60,12 @@
         }
     </style>
     <body>
-<h1>Library Program Bingo</h1>
-<p>Attend Library programs and workshops.</p>
-<p>Get one square credit per program.</p>
+	    <iframe src="source" id="frame" width="400" height="400">
+		    <h1>Library Program Bingo</h1>
+		    <p>Attend Library programs and workshops.</p>
+		    <p>Get one square credit per program.</p>
 	    
-    	    <div id= "frame" style="width: 450px; float: left;" class="btn-group">
+    	    <div style="width: 450px; float: left;" class="btn-group">
 		    <input type="image" src="Images/Green_Square.png" onclick="ChangeTextDL()" style="border: solid;" height="80" width="80"/>
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
@@ -84,7 +91,7 @@
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Red_Square_Two.png" onclick="ChangeTextAD()" style="border: solid;" height="80" width="80"/>
-	    </div>
+	    </iframe><br />
 <details open>
 <summary>This square can be filled by programs or workshops under the following Categories:</summary>
 <div id="divElement"><p>(Click a square to see a category description)</p></div>
@@ -92,7 +99,7 @@
 		    <p><span style="color: Blue; font-size: 30px;">Bingo Card</span></p>
         <br />
 		    <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />
-		    <a href="#" onclick="VoucherPrint('Images/BingoCard.png'); return false;" class="myButton">Print Card</a>
+		    <a href="#" onclick="print(); return false;" class="myButton">Print Card</a>
     </div>
 </body>
 </html>
