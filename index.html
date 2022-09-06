@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
 	<link rel="stylesheet" href= "style.css">
-</head>
+	</head>
+	<!-- Include from the CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+	<!-- Include locally otherwise -->
+	<!-- <script src='html2canvas.js'></script> -->
     <script type="text/javascript">
         function VoucherSourcetoPrint(source) {
             return "<html><head><script>function step1(){\n" +
@@ -20,6 +24,21 @@
             pwa.document.open();
             pwa.document.write(VoucherSourcetoPrint(source));
             pwa.document.close();
+        }
+	
+	function takeshot() {
+            let div =
+                document.getElementById('photo');
+            // Use the html2canvas
+            // function to take a screenshot
+            // and append it
+            // to the output div
+            html2canvas(div).then(
+                function (canvas) {
+                    document
+                    .getElementById('output')
+                    .appendChild(canvas);
+                })
         }
 	    function ChangeTextIL(){
 		document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
@@ -52,13 +71,17 @@
             padding: 7px 35px;
             text-decoration: none;
         }
+	    #photo {
+            border: 4px solid green;
+            padding: 4px;
+        }
     </style>
     <body>
-<h1>Library Program Bingo</h1>
-<p>Attend Library programs and workshops.</p>
-<p>Get one square credit per program.</p>
-	    
-    	    <div style="width: 450px; float: left;" class="btn-group">
+	    <div id="photo">
+		    <h1>Library Program Bingo</h1>
+		    <p>Attend Library programs and workshops.</p>
+		    <p>Get one square credit per program.</p>
+		    <div style="width: 450px; float: left;" class="btn-group">
 		    <input type="image" src="Images/Green_Square.png" onclick="ChangeTextDL()" style="border: solid;" height="80" width="80"/>
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
@@ -84,11 +107,23 @@
 		    <input type="image" src="Images/Purple_Square.png" onclick="ChangeTextIL()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Blue_Square.png" onclick="ChangeTextCR()" style="border: solid;" height="80" width="80"/> 
 		    <input type="image" src="Images/Red_Square_Two.png" onclick="ChangeTextAD()" style="border: solid;" height="80" width="80"/>
+		    <!-- Define the button that will be used to take the screenshot -->
+		    <button onclick="takeshot()">Take Screenshot</button>
+		    </div>
+		    <br />
 <details open>
 <summary>This square can be filled by programs or workshops under the following Categories:</summary>
 <div id="divElement"><p>(Click a square to see a category description)</p></div>
 </details>
-		    <p><span style="color: Blue; font-size: 30px;">Bingo Card</span></p>
+		    <h1>Screenshot:</h1>
+		    <div id="output"></div>
+		    <script type="text/javascript">
+  
+        // Define the function to screenshot the div
+
+    </script>
+
+		    <p><span style="color: Blue; font-size: 30px;">Blank Bingo Card</span></p>
         <br />
 		    <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />
 		    <a href="#" onclick="VoucherPrint('Images/BingoCard.png'); return false;" class="myButton">Print Card</a>
