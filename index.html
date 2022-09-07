@@ -29,10 +29,8 @@
 	function takeshot() {
             let div =
                 document.getElementById("photo");
-            // Use the html2canvas
-            // function to take a screenshot
-            // and append it
-            // to the output div
+            // Use the html2canvas function to take a screenshot
+            // and append it to the output div
             html2canvas(div).then(
                 function (canvas) {
                     document
@@ -95,13 +93,12 @@
 </details>
 
 
-		    <p><span style="color: Blue; font-size: 30px;">Blank Bingo Card</span></p>
-        <br />
+		    <!-- <p><span style="color: Blue; font-size: 30px;">Blank Bingo Card</span></p> -->
+        <!-- <br /> -->
 		    <!-- <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" /> -->
 		    <a href="#" onclick="VoucherPrint("source"); return false;" class="myButton">Print Card</a>
 		    <!-- Define the button that will be used to take the screenshot -->
 		    <button onclick="takeshot()"; class="myButton">Take Screenshot</button>
-    </div>
 	    <h1>Screenshot:</h1>
 	    <div id="source"></div>
 </body>
