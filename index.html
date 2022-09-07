@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
-	<!--<link rel="stylesheet" href= "style.css">-->
+	<link rel="stylesheet" href= "style.css">
 	</head>
 	<!-- Include from the CDN -->
 	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
 	<!-- Include locally otherwise -->
 	<!-- <script src='html2canvas.js'></script> -->
-    <script type="text/javascript">
-        function VoucherSourcetoPrint(source) {
+	<script type="text/javascript">
+        function SourcetoPrint(source) {
             return "<html><head><script>function step1(){\n" +
                     "setTimeout('step2()', 10);}\n" +
                     "function step2(){window.print();window.close()}\n" +
@@ -22,13 +22,13 @@
             Pagelink = "about:blank";
             var pwa = window.open(Pagelink, "_new");
             pwa.document.open();
-            pwa.document.write(VoucherSourcetoPrint(source));
+            pwa.document.write(SourcetoPrint(source));
             pwa.document.close();
         }
 	
 	function takeshot() {
             let div =
-                document.getElementById('photo');
+                document.getElementById("photo");
             // Use the html2canvas
             // function to take a screenshot
             // and append it
@@ -56,26 +56,6 @@
 		document.getElementById("divElement").innerHTML="This block does not need to be filled by a program or workshop.";
 	}
     </script>
-    <style type="text/css">
-        .myButton
-        {
-            background-color: #77b55a;
-            border: 1px solid #4b8f29;
-            display: inline-block;
-            cursor: pointer;
-            color: #f0ebf0;
-            font-family: arial;
-            font-size: 13px;
-            font-weight: bold;
-			margin: 5px;
-            padding: 7px 35px;
-            text-decoration: none;
-        }
-	    #photo {
-            border: 1px solid green;
-            padding: 2px;
-        }
-    </style>
     <body>
 	    <div id="photo">
 		    <h1>Library Program Bingo</h1>
@@ -117,12 +97,12 @@
 
 		    <p><span style="color: Blue; font-size: 30px;">Blank Bingo Card</span></p>
         <br />
-		    <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />
-		    <a href="#" onclick="VoucherPrint('output'); return false;" class="myButton">Print Card</a>
+		    <!--<img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />-->
+		    <a href="#" onclick="VoucherPrint("source"); return false;" class="myButton">Print Card</a>
 		    <!-- Define the button that will be used to take the screenshot -->
 		    <button onclick="takeshot()"; class="myButton">Take Screenshot</button>
     </div>
 	    <h1>Screenshot:</h1>
-	    <div id="output"></div>
+	    <div id="source"></div>
 </body>
 </html>
