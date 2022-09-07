@@ -15,80 +15,65 @@
 <script type="text/javascript">
 document.onclick = hideMenu;
 document.oncontextmenu = rightClick;
-$(document).ready(onPageReady); 
-function onPageReady () { 
-   $("#button").bind('contextmenu', function(event) { 
-    console.log(event); 
-    // Check for right click 
-    if (event.which == 3){ // can also use button instead of which. 
-      // prevent default action. 
-      event.preventDefault();
-	    	    if (document.getElementById("contextMenu").style.display == "block")
-			hideMenu();
-			else {
-				var menu = document.getElementById("contextMenu")
-				menu.style.display = 'block';
-				menu.style.left = e.pageX + "px";
-				menu.style.top = e.pageY + "px";
-			}
-       // simulate left click
-	    $(this).click();
-    } 
-  }); 
- 
-  $("#button").click(function (event) { 
-    console.log(" Left Clicked !!",event) 
-  }) 
-} 
-        function hideMenu() {
-            document.getElementById("contextMenu").style.display = "none"
-        }
-
-        function SourcetoPrint(source) {
-            return "<html><head><script>function step1(){\n" +
-                    "setTimeout('step2()', 10);}\n" +
-                    "function step2(){window.print();window.close()}\n" +
-                    "</scri" + "pt></head><body onload='step1()'>\n" +
-                    "<img src='" + source + "' /></body></html>";
-        }
-        function VoucherPrint(source) {
-            Pagelink = "about:blank";
-            var pwa = window.open(Pagelink, "_new");
-            pwa.document.open();
-            pwa.document.write(SourcetoPrint(source));
-            pwa.document.close();
-        }
-	
-	function takeshot() {
-            let div = document.getElementById("photo");
-            // Use the html2canvas function to take a screenshot
-            // and append it to the output div
-            html2canvas(div).then(
-                function (canvas) {
-                    document
-                    .getElementById("source")
-                    .appendChild(canvas);
-                })
-        }
-	    function ChangeTextIL(){
-		document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
+function hideMenu() { 
+	document.getElementById("contextMenu") 
+	.style.display = "none"
+}
+function rightClick(e) { 
+	e.preventDefault();
+	if (document.getElementById("contextMenu") .style.display == "block"){ 
+		hideMenu(); 
 	}
-	    function ChangeTextDL(){
-		document.getElementById("divElement").innerHTML="Digital Literacy: 1) Your Wake Tech Accounts & Using Office 365 Apps, 2) Using NC Live & Library Databases. Right-click to add Code from a completed workshop.";
+	else{ 
+		var menu = document.getElementById("contextMenu")
+		menu.style.display = 'block';
+		menu.style.left = e.pageX + "px";
+		menu.style.top = e.pageY + "px";
+		}
 	}
-	    function ChangeTextAD(){
-		document.getElementById("divElement").innerHTML="Adulting Life Skills: 1) Adulting 101, 2) Meal Planning 101, 3) Talking via Tech: Social Media Etiquette. Right-click to add Code from a completed workshop.";
-	}
-	    function ChangeTextCR(){
-		document.getElementById("divElement").innerHTML="Crafts: 1) Wish Bracelets, 2) Woven Bowls. Right-click to add Code from a completed workshop.";
-	}
-            function ChangeTextFR(){
-		document.getElementById("divElement").innerHTML="This block does not need to be filled by a program or workshop.";
-	}
-    </script>
-    <body>
-
-	    <div id="photo">
+function SourcetoPrint(source) {
+	return "<html><head><script>function step1(){\n" + 
+		"setTimeout('step2()', 10);}\n" +
+		"function step2(){window.print();window.close()}\n" +
+		"</scri" + "pt></head><body onload='step1()'>\n" +
+			"<img src='" + source + "' /></body></html>";
+}
+function VoucherPrint(source) {
+    Pagelink = "about:blank";
+    var pwa = window.open(Pagelink, "_new");
+    pwa.document.open();
+    pwa.document.write(SourcetoPrint(source));
+    pwa.document.close();
+    }
+function takeshot() {
+	let div = document.getElementById("photo");
+	// Use the html2canvas function to take a screenshot
+	// and append it to the output div
+	html2canvas(div).then(
+		function (canvas) {
+			document
+			.getElementById("source")
+			.appendChild(canvas);
+		})
+    }
+function ChangeTextIL(){
+	document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
+}
+function ChangeTextDL(){
+	document.getElementById("divElement").innerHTML="Digital Literacy: 1) Your Wake Tech Accounts & Using Office 365 Apps, 2) Using NC Live & Library Databases. Right-click to add Code from a completed workshop.";
+}
+function ChangeTextAD(){
+	document.getElementById("divElement").innerHTML="Adulting Life Skills: 1) Adulting 101, 2) Meal Planning 101, 3) Talking via Tech: Social Media Etiquette. Right-click to add Code from a completed workshop.";
+}
+function ChangeTextCR(){
+	document.getElementById("divElement").innerHTML="Crafts: 1) Wish Bracelets, 2) Woven Bowls. Right-click to add Code from a completed workshop.";
+}
+function ChangeTextFR(){
+	document.getElementById("divElement").innerHTML="This block does not need to be filled by a program or workshop.";
+}
+</script>
+<body>
+	<div id="photo">
 		    <h1>Library Program Bingo</h1>
 		    <p>Attend Library programs and workshops.</p>
 		    <p>Get one square credit per program.</p>
@@ -148,7 +133,7 @@ function onPageReady () {
 		    <!-- <p><span style="color: Blue; font-size: 30px;">Blank Bingo Card</span></p> -->
         	    <br />
 		    <!-- <img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" /> -->
-		    <a href="#" onclick="VoucherPrint("source"); return false;" class="myButton">Print Card</a>
+		    <a href="#" onclick="VoucherPrint('source'); return false;" class="myButton">Print Card</a>
 		    <!-- Define the button that will be used to take the screenshot -->
 		    <button onclick="takeshot()"; class="myButton">Take Screenshot</button>
 	    <h3>Screenshot:</h3>
