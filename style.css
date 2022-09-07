@@ -6,7 +6,7 @@
   height: 587px;
   z-index: 48;
 }
-.Green_Square {
+.Green_Square_ROne {
   background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 10px;
@@ -15,7 +15,7 @@
   height: 64px;
   z-index: 47;
 }
-.Purple_Square {
+.Purple_Square_ROne {
   background-image: url(Images/Purple_Square.png);
   position: absolute;
   left: 78px;
@@ -24,7 +24,7 @@
   height: 64px;
   z-index: 46;
 }
-.Blue_Square {
+.Blue_Square_ROne {
   background-image: url(Images/Blue_Square.png);
   position: absolute;
   left: 146px;
@@ -33,7 +33,7 @@
   height: 64px;
   z-index: 45;
 }
-.Red_Square {
+.Red_Square_ROne {
   background-image: url(Images/Red_Square.png);
   position: absolute;
   left: 214px;
@@ -42,8 +42,8 @@
   height: 64px;
   z-index: 44;
 }
-.Green_Square_Two {
-  background-image: url(Images/Green_Square_Two.png);
+.Green_Square_ROne_Two {
+  background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 282px;
   top: 176px;
@@ -59,7 +59,7 @@
   height: 587px;
   z-index: 41;
 }
-.Blue_Square {
+.Blue_Square_RTwo {
   background-image: url(Images/Blue_Square.png);
   position: absolute;
   left: 10px;
@@ -68,7 +68,7 @@
   height: 64px;
   z-index: 40;
 }
-.Red_Square {
+.Red_Square_RTwo {
   background-image: url(Images/Red_Square.png);
   position: absolute;
   left: 78px;
@@ -77,7 +77,7 @@
   height: 64px;
   z-index: 39;
 }
-.Green_Square {
+.Green_Square_RTwo {
   background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 146px;
@@ -86,7 +86,7 @@
   height: 64px;
   z-index: 38;
 }
-.Purple_Square {
+.Purple_Square_RTwo {
   background-image: url(Images/Purple_Square.png);
   position: absolute;
   left: 214px;
@@ -95,7 +95,7 @@
   height: 64px;
   z-index: 37;
 }
-.Blue_Square_Two {
+.Blue_Square_RTwo_Two {
   background-image: url(Images/Blue_Square_Two.png);
   position: absolute;
   left: 282px;
@@ -112,7 +112,7 @@
   height: 587px;
   z-index: 34;
 }
-.Purple_Square {
+.Purple_Square_RThree {
   background-image: url(Images/Purple_Square.png);
   position: absolute;
   left: 10px;
@@ -121,7 +121,7 @@
   height: 64px;
   z-index: 33;
 }
-.Green_Square {
+.Green_Square_RThree {
   background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 78px;
@@ -139,7 +139,7 @@
   height: 64px;
   z-index: 31;
 }
-.Blue_Square {
+.Blue_Square_RThree {
   background-image: url(Images/Blue_Square.png);
   position: absolute;
   left: 214px;
@@ -148,7 +148,7 @@
   height: 64px;
   z-index: 30;
 }
-.Red_Square {
+.Red_Square_RThree {
   background-image: url(Images/Red_Square.png);
   position: absolute;
   left: 282px;
@@ -165,7 +165,7 @@
   height: 587px;
   z-index: 27;
 }
-.Red_Square {
+.Red_Square_RFour {
   background-image: url(Images/Red_Square.png);
   position: absolute;
   left: 10px;
@@ -174,7 +174,7 @@
   height: 64px;
   z-index: 26;
 }
-.Purple_Square {
+.Purple_Square_RFour {
   background-image: url(Images/Purple_Square.png);
   position: absolute;
   left: 78px;
@@ -183,7 +183,7 @@
   height: 64px;
   z-index: 25;
 }
-.Red_Square_Two {
+.Red_Square_RFour_Two {
   background-image: url(Images/Red_Square_Two.png);
   position: absolute;
   left: 146px;
@@ -192,7 +192,7 @@
   height: 64px;
   z-index: 24;
 }
-.Green_Square {
+.Green_Square_RFour {
   background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 214px;
@@ -201,7 +201,7 @@
   height: 64px;
   z-index: 23;
 }
-.Blue_Square {
+.Blue_Square_RFour {
   background-image: url(Images/Blue_Square.png);
   position: absolute;
   left: 282px;
@@ -218,7 +218,7 @@
   height: 587px;
   z-index: 20;
 }
-.Purple_Square {
+.Purple_Square_RFive {
   background-image: url(Images/Purple_Square.png);
   position: absolute;
   left: 10px;
@@ -227,7 +227,7 @@
   height: 64px;
   z-index: 19;
 }
-.Green_Square {
+.Green_Square_RFive {
   background-image: url(Images/Green_Square.png);
   position: absolute;
   left: 78px;
@@ -236,7 +236,7 @@
   height: 64px;
   z-index: 18;
 }
-.Purple_Square_Two {
+.Purple_Square_RFive_Two {
   background-image: url(Images/Purple_Square_Two.png);
   position: absolute;
   left: 146px;
@@ -245,7 +245,7 @@
   height: 64px;
   z-index: 17;
 }
-.Blue_Square {
+.Blue_Square_RFive {
   background-image: url(Images/Blue_Square.png);
   position: absolute;
   left: 214px;
@@ -254,7 +254,7 @@
   height: 64px;
   z-index: 16;
 }
-.Red_Square {
+.Red_Square_RFive {
   background-image: url(Images/Red_Square.png);
   position: absolute;
   left: 282px;
