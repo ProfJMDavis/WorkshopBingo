@@ -457,6 +457,9 @@ ul {
 }
 
 details {
+  position: relative;
+  top: 150px;
+  right: 150px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
 
