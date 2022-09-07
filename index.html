@@ -4,33 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<script src="jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
 <title>Bingo Project</title>
 <link rel="stylesheet" href= "style.css">
 </head>
-	<!-- Include from the CDN -->
-	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
-	<!-- Include locally otherwise -->
-	<!-- <script src='html2canvas.js'></script> -->
-	<script type="text/javascript">
-	document.getElementById("test").onmousedown = function(event) { 
-    	if (event.which == 3) {
-		alert("right clicked!");
-		function rightClick(e) {
-			e.preventDefault();
-			if (document.getElementById("contextMenu").style.display == "block")
-				hideMenu();
+<!-- Include from the CDN -->
+<!-- Include locally otherwise -->
+<!-- <script src='html2canvas.js'></script> -->
+<script type="text/javascript">
+document.onclick = hideMenu;
+document.oncontextmenu = rightClick;
+$(document).ready(onPageReady); 
+function onPageReady () { 
+   $("#button").bind('contextmenu', function(event) { 
+    console.log(event); 
+    // Check for right click 
+    if (event.which == 3){ // can also use button instead of which. 
+      // prevent default action. 
+      event.preventDefault();
+	    	    if (document.getElementById("contextMenu").style.display == "block")
+			hideMenu();
 			else {
 				var menu = document.getElementById("contextMenu")
 				menu.style.display = 'block';
 				menu.style.left = e.pageX + "px";
 				menu.style.top = e.pageY + "px";
 			}
-		}
-	}
-	}
-	document.onclick = hideMenu;
-        document.oncontextmenu = rightClick;
-  
+       // simulate left click
+	    $(this).click();
+    } 
+  }); 
+ 
+  $("#button").click(function (event) { 
+    console.log(" Left Clicked !!",event) 
+  }) 
+} 
         function hideMenu() {
             document.getElementById("contextMenu").style.display = "none"
         }
