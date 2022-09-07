@@ -458,8 +458,8 @@ ul {
 
 details {
   position: relative;
-  top: 650px;
-  right: 200px;
+  top: 550px;
+  left: 200px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
 
@@ -481,8 +481,6 @@ details > p {
 
 details[open] > summary {
   position: relative;
-  top: 150px;
-  right: 150px;
   padding: 2px 6px;
   background-color: #ccf;
   border: none;
