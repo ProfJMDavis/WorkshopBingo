@@ -6,6 +6,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <script src="jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Bingo Project</title>
 <link rel="stylesheet" href= "style.css">
 </head>
@@ -21,7 +24,8 @@ function hideMenu() {
 }
 function rightClick(e) { 
 	e.preventDefault();
-	if (document.getElementById("contextMenu") .style.display == "block"){ 
+	if (document.getElementById("contextMenu") 
+	    .style.display == "block"){
 		hideMenu(); 
 	}
 	else{ 
