@@ -19,6 +19,12 @@ ul {
   display: block;
   z-index: 50;
 } 
+#photo {
+ border: 1px solid green;
+ top: 0px;
+ bottom: 600px
+ padding: 2px;
+}
 .menu {
   display: flex;
   flex-direction: column;
