@@ -16,7 +16,7 @@
 <!-- <script src='html2canvas.js'></script> -->
 <script type="text/javascript">
 document.onclick = hideMenu;
-document.oncontextmenu = rightClick;
+<!-- document.oncontextmenu = rightClick; -->
 function hideMenu() { 
 	document.getElementById("contextMenu") 
 	.style.display = "none"
@@ -99,7 +99,7 @@ function ChangeTextFR(){
 		    <br />
 		    <div id="button-group" style="width: 450px; height: 450px; float: left;" class="btn-group">
 			<div class=Row_1>
-				<input type="image" src="Images/Green_Square.png" id="test" class=Green_Square_ROne onclick="ChangeTextDL()" style="border: solid;" />
+				<input type="image" src="Images/Green_Square.png" id="test" class=Green_Square_ROne onclick="ChangeTextDL()" oncontextmenu = "rightClick()" style="border: solid;" />
 				<input type="image" src="Images/Purple_Square.png" id="test" class=Purple_Square_ROne onclick="ChangeTextIL()" style="border: solid;" />
 				<input type="image" src="Images/Blue_Square.png" id="test" class=Blue_Square_ROne onclick="ChangeTextCR()" style="border: solid;" />
 				<input type="image" src="Images/Red_Square.png" id="test" class=Red_Square_ROne onclick="ChangeTextAD()" style="border: solid;" />
