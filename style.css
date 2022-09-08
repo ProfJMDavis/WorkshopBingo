@@ -413,8 +413,8 @@ ul {
   top: 9.82px;
   z-index: 6;
 }
-.CraftSkills {
-  background-image: url("Blue_Square.png");
+.DigitLiteracy {
+  background-image: url("Green_Square.png");
   position: absolute;
   left: 17px;
   top: 141px;
@@ -431,8 +431,8 @@ ul {
   height: 16px;
   z-index: 4;
 }
-.DigitLiteracy {
-  background-image: url("Green_Square.png");
+.CraftSkills {
+  background-image: url("Blue_Square.png");
   position: absolute;
   left: 189px;
   top: 142px;
