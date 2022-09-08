@@ -413,8 +413,8 @@ ul {
   top: 9.82px;
   z-index: 6;
 }
-.InfLiteracy_copy_3 {
-  background-image: url("InfLiteracy copy 3.png");
+.CraftSkills {
+  background-image: url("Blue_Square.png");
   position: absolute;
   left: 17px;
   top: 141px;
@@ -422,8 +422,8 @@ ul {
   height: 16px;
   z-index: 5;
 }
-.InfLiteracy_copy_2 {
-  background-image: url("InfLiteracy copy 2.png");
+.AdultSkills {
+  background-image: url("Red_Square.png");
   position: absolute;
   left: 188px;
   top: 115px;
@@ -431,8 +431,8 @@ ul {
   height: 16px;
   z-index: 4;
 }
-.InfLiteracy_copy {
-  background-image: url("InfLiteracy copy.png");
+.DigitLiteracy {
+  background-image: url("Green_Square.png");
   position: absolute;
   left: 189px;
   top: 142px;
@@ -441,7 +441,7 @@ ul {
   z-index: 3;
 }
 .InfLiteracy {
-  background-image: url("InfLiteracy.png");
+  background-image: url("Purple_Square.png");
   position: absolute;
   left: 17px;
   top: 115px;
