@@ -14,9 +14,10 @@ ul {
   list-style: none;
 }
 .context-menu { 
-  position: relative;
+  position: absolute;
   top: 500px;
   display: block;
+  z-index: 50;
 } 
 .menu {
   display: flex;
