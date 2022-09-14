@@ -489,6 +489,7 @@ details > p {
 
 details[open] > summary {
   position: relative;
+  top: 610px;
   padding: 2px 6px;
   background-color: #ccf;
   border: none;
