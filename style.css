@@ -467,7 +467,7 @@ ul {
 
 details {
   position: absolute;
-  top: 210px;
+  top: 610px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
 
@@ -493,7 +493,7 @@ details > p {
 
 details[open] > summary {
   position: absolute;
-  top: 210px;
+  top: 250px;
   padding: 2px 6px;
   background-color: #ccf;
   border: none;
