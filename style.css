@@ -481,6 +481,8 @@ details > summary {
 }
 
 details > p {
+  position: absolute;
+  top: 650;
   border-radius: 0 0 2px 2px;
   top: 610px;
   background-color: white;
@@ -490,7 +492,7 @@ details > p {
 }
 
 details[open] > summary {
-  position: relative;
+  position: absolute;
   top: 610px;
   padding: 2px 6px;
   background-color: #ccf;
@@ -500,7 +502,7 @@ details[open] > summary {
 
 .screenshot {
   border-radius: 0 0 1px 1px;
-  top: 610px;
+  top: 400px;
   background-color: white;
   padding: 2px 6px;
   margin: 0;
@@ -509,7 +511,7 @@ details[open] > summary {
 
 .printbutton {
   border-radius: 0 0 1px 1px;
-  top: 610px;
+  top: 400px;
   background-color: white;
   padding: 2px 6px;
   margin: 0;
