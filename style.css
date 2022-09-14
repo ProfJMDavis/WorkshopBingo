@@ -466,7 +466,7 @@ ul {
 }
 
 details {
-  position: relative;
+  position: absolute;
   top: 610px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
