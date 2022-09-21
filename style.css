@@ -5,8 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 450vw;
+  height: 800vh;
   background: #f2f4f6;
   overflow: hidden;
 }
@@ -15,14 +15,14 @@ ul {
 }
 .context-menu { 
   position: absolute;
-  top: 500px;
+  top: 800px;
   display: block;
   z-index: 50;
 } 
 #photo {
  border: 1px solid green;
  top: 0px;
- bottom: 600px
+ bottom: 800px
  padding: 2px;
 }
 .menu {
