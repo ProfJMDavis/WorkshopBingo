@@ -18,17 +18,17 @@
 document.onclick = hideMenu;
 document.getElementById("photo").oncontextmenu = rightClick;
 function hideMenu() { 
-	document.getElementById("contextMenu") 
+	document.getElementById("contextmenu") 
 	.style.display = "none"
 }
 function rightClick(e) { 
 	e.preventDefault();
-	if (document.getElementById("contextMenu") 
+	if (document.getElementById("contextmenu") 
 	    .style.display == "block"){
 		hideMenu(); 
 	}
 	else{ 
-		var menu = document.getElementById("contextMenu")
+		var menu = document.getElementById("contextmenu")
 		menu.style.display = 'block';
 		menu.style.left = e.pageX + "px";
 		menu.style.top = e.pageY + "px";
@@ -134,7 +134,7 @@ function ChangeTextFR(){
 		    		<input type="button" id="test" class=Red_Square_RFive onclick="ChangeTextAD()" oncontextmenu = "rightClick()" />
 			    </div>
 		    </div>
-	<div id="contextMenu" class="context-menu" style="display:none">
+	<div id="contextmenu" class="context-menu" style="display:none">
         <ul class="menu"> 
             <li class="share"><a href="#" onclick="VoucherPrint("Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1"); return false;"><i class="fa fa-print" aria-hidden="true"></i> Print Blank Card</a></li> 
             <li class="rename"><a href="#"><i class="icon-camera-retro" aria-hidden="true"></i> Screenshot Card</a></li> 
