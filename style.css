@@ -94,9 +94,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     color: #77b55a;
-    position: absolute;
-    left: 4px;
-
+    position: relative;
     width: 80px;
     height: 80px;
     z-index: 47;
@@ -109,9 +107,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     color: #c997fb;
-    position: absolute;
-    left: 92px;
-
+    position: relative;
     width: 80px;
     height: 80px;
     z-index: 46;
@@ -124,9 +120,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     color: #bed7ef;
-    position: absolute;
-    left: 179px;
-
+    position: relative;
     width: 80px;
     height: 80px;
     z-index: 45;
@@ -139,9 +133,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     color: #ff5050;
-    position: absolute;
-    left: 267px;
-
+    position: relative;
     width: 80px;
     height: 80px;
     z-index: 44;
@@ -154,9 +146,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     color: #77b55a;
-    position: absolute;
-    left: 354px;
-
+    position: relative;
     width: 80px;
     height: 80px;
     z-index: 43;
