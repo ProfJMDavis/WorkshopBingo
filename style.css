@@ -81,7 +81,7 @@ ul {
 }
 
 .Row_1 {
-  position: absolute;
+  position: relative;
   left: 4px;
   top: 300px;
   width: 420px;
