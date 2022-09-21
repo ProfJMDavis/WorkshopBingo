@@ -5,8 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  width: 450vw;
-  height: 800vh;
+  width: 100vw;
+  height: 100vh;
   background: #f2f4f6;
   overflow: hidden;
 }
@@ -61,6 +61,19 @@ ul {
   color: red;
 }
 
+.BlackUnderlay {
+  background-color: #000000;
+  border: 3px solid #000000;
+  cursor: pointer;
+  color: #000000;
+  position: absolute;
+  left: 2px;
+  top: 298px;
+  width: 420px;
+  height: 420px;
+  z-index: 13;
+}
+
 .Row_1 {
   position: absolute;
   left: 4px;
@@ -77,7 +90,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 4px;
-    top: 300px;
+
     width: 80px;
     height: 80px;
     z-index: 47;
@@ -92,7 +105,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 92px;
-    top: 300px;
+
     width: 80px;
     height: 80px;
     z-index: 46;
@@ -107,7 +120,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 179px;
-    top: 300px;
+
     width: 80px;
     height: 80px;
     z-index: 45;
@@ -122,7 +135,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 267px;
-    top: 300px;
+
     width: 80px;
     height: 80px;
     z-index: 44;
@@ -137,7 +150,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 354px;
-    top: 300px;
+
     width: 80px;
     height: 80px;
     z-index: 43;
@@ -148,7 +161,7 @@ ul {
 .Row_2 {
   position: absolute;
   left: 4px;
-  top: 300px;
+  top: 388px;
   width: 420px;
   height: 84px;
   z-index: 41;
@@ -161,7 +174,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 4px;
-    top: 388px;
+
     width: 80px;
     height: 80px;
     z-index: 40;
@@ -176,7 +189,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 92px;
-    top: 388px;
+
     width: 80px;
     height: 80px;
     z-index: 39;
@@ -191,7 +204,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 179px;
-    top: 388px;
+
     width: 80px;
     height: 80px;
     z-index: 38;
@@ -206,7 +219,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 267px;
-    top: 388px;
+
     width: 80px;
     height: 80px;
     z-index: 37;
@@ -221,7 +234,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 348px;
-    top: 388px;
+
     width: 80px;
     height: 80px;
     z-index: 36;
@@ -245,7 +258,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 4px;
-    top: 472px;
+
     width: 80px;
     height: 80px;
     z-index: 33;
@@ -260,7 +273,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 92px;
-    top: 472px;
+
     width: 80px;
     height: 80px;
     z-index: 32;
@@ -271,7 +284,7 @@ ul {
   background-image: url("Free_Square.png");
   position: absolute;
   left: 179px;
-  top: 472px;
+
   width: 80px;
   height: 80px;
   z-index: 31;
@@ -286,7 +299,7 @@ ul {
   color: #bed7ef;
   position: absolute;
   left: 267px;
-  top: 472px;
+
   width: 80px;
   height: 80px;
   z-index: 30;
@@ -301,7 +314,7 @@ ul {
   color: #ff5050;
   position: absolute;
   left: 348px;
-  top: 472px;
+
   width: 80px;
   height: 80px;
   z-index: 29;
@@ -325,7 +338,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 4px;
-    top: 562px;
+
     width: 80px;
     height: 80px;
     z-index: 26;
@@ -340,7 +353,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 96px;
-    top: 562px;
+
     width: 80px;
     height: 80px;
     z-index: 25;
@@ -355,7 +368,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 179px;
-    top: 562px;
+
     width: 80px;
     height: 80px;
     z-index: 24;
@@ -370,7 +383,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 267px;
-    top: 562px;
+
     width: 80px;
     height: 80px;
     z-index: 23;
@@ -385,7 +398,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 348px;
-    top: 562px;
+
     width: 80px;
     height: 80px;
     z-index: 22;
@@ -424,8 +437,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 92px;
-    top: 650px;
-    width: 80px;
+    top: 650px;    width: 80px;
     height: 80px;
     z-index: 18;
     margin: 4px;
@@ -439,7 +451,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 179px;
-    top: 650px;
+    
     width: 80px;
     height: 80px;
     z-index: 17;
@@ -455,7 +467,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 267px;
-    top: 650px;
+    
     width: 80px;
     height: 80px;
     z-index: 16;
@@ -470,25 +482,14 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 348px;
-    top: 650px;
+    
     width: 80px;
     height: 80px;
     z-index: 15;
     margin: 4px;
     padding: 7px 35px;
 }
-.BlackUnderlay {
-  background-color: #000000;
-  border: 3px solid #000000;
-  cursor: pointer;
-  color: #000000;
-  position: absolute;
-  left: 2px;
-  top: 298px;
-  width: 420px;
-  height: 420px;
-  z-index: 13;
-}
+
 .Get_1_square_credit_per_program {
   font-size: 14px;
   font-family: "Arial";
