@@ -61,6 +61,13 @@ ul {
   color: red;
 }
 
+.btn-group {
+	width: 443px;
+	height: 473px;
+	float: left;
+	top: 200px;
+}
+
 .BlackUnderlay {
   background-image:url('BlackUnderlay.png')
   cursor: pointer;
