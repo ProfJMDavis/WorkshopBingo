@@ -23,7 +23,7 @@ ul {
  border: 1px solid green;
  top: 0px;
  height: 750px;
- width: 470px;
+ width: 478px;
  padding: 2px;
 }
 
@@ -64,10 +64,11 @@ ul {
 }
 
 .btn-group {
+	position: absolute;
 	width: 443px;
 	height: 473px;
 	float: left;
-	top: 200px;
+	top: 300px;
 }
 
 .BlackUnderlay {
@@ -576,12 +577,12 @@ ul {
 
 details {
   position: absolute;
-  top: 610px;
+  top: 620px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
 
 details > summary {
-  padding: 2px 6px;
+  padding: 4px 6px;
   background-color: #ddd;
   border: none;
   box-shadow: 1px 1px 2px black;
@@ -590,9 +591,9 @@ details > summary {
 
 details > p {
   position: absolute;
-  top: 250;
+  top: 260px;
   border-radius: 0 0 2px 2px;
-  top: 610px;
+  top: 620px;
   background-color: white;
   padding: 2px 6px;
   margin: 0;
