@@ -26,6 +26,10 @@ ul {
  width: 478px;
  padding: 2px;
 }
+.span {
+  position: absolute;
+  top: 420px;
+}
 
 .menu {
   display: flex;
@@ -577,7 +581,7 @@ ul {
 
 details {
   position: absolute;
-  top: 620px;
+  top: 640px;
   font: 16px "Open Sans", Calibri, sans-serif;
 }
 
@@ -614,6 +618,7 @@ details[open] > summary {
 
 .screenshot {
   border-radius: 0 0 1px 1px;
+  top: 0px;
   height: 750px;
   background-color: white;
   padding: 2px 6px;
@@ -624,8 +629,8 @@ details[open] > summary {
 .myButton {
   border-radius: 0 0 1px 1px;
   top: 400px;
-  background-color: green;
-  font-color: white;
+  background-color: lightgreen;
+  color: white;
   padding: 2px 6px;
   margin: 0;
   box-shadow: 1px 1px 1px black;
