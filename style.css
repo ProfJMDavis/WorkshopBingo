@@ -480,12 +480,15 @@ ul {
     padding: 7px 35px;
 }
 .BlackUnderlay {
-  background-image: url(Images/BlackUnderlay.png);
+  background-color: #000000;
+  border: 3px solid #000000;
+  cursor: pointer;
+  color: #000000;
   position: absolute;
   left: 6px;
   top: 172px;
-  width: 344px;
-  height: 344px;
+  width: 420px;
+  height: 420px;
   z-index: 13;
 }
 .Get_1_square_credit_per_program {
