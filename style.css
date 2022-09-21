@@ -61,14 +61,12 @@ ul {
   color: red;
 }
 
-
-
 .Row_1 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 356px;
-  height: 587px;
+  left: 4px;
+  top: 300px;
+  width: 420px;
+  height: 84px;
   z-index: 48;
 }
 .Green_Square_ROne {
@@ -78,8 +76,8 @@ ul {
     cursor: pointer;
     color: #77b55a;
     position: absolute;
-    left: 5px;
-    top: 297px;
+    left: 4px;
+    top: 300px;
     width: 80px;
     height: 80px;
     z-index: 47;
@@ -94,7 +92,7 @@ ul {
     color: #c997fb;
     position: absolute;
     left: 92px;
-    top: 298px;
+    top: 300px;
     width: 80px;
     height: 80px;
     z-index: 46;
@@ -124,7 +122,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 267px;
-    top: 302px;
+    top: 300px;
     width: 80px;
     height: 80px;
     z-index: 44;
@@ -139,7 +137,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 354px;
-    top: 303px;
+    top: 300px;
     width: 80px;
     height: 80px;
     z-index: 43;
@@ -149,10 +147,10 @@ ul {
 
 .Row_2 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 356px;
-  height: 587px;
+  left: 4px;
+  top: 300px;
+  width: 420px;
+  height: 84px;
   z-index: 41;
 }
 .Blue_Square_RTwo {
@@ -163,7 +161,7 @@ ul {
     color: #bed7ef;
     position: absolute;
     left: 4px;
-    top: 386px;
+    top: 388px;
     width: 80px;
     height: 80px;
     z-index: 40;
@@ -177,7 +175,7 @@ ul {
     cursor: pointer;
     color: #ff5050;
     position: absolute;
-    left: 94px;
+    left: 92px;
     top: 388px;
     width: 80px;
     height: 80px;
@@ -192,8 +190,8 @@ ul {
     cursor: pointer;
     color: #77b55a;
     position: absolute;
-    left: 180px;
-    top: 390px;
+    left: 179px;
+    top: 388px;
     width: 80px;
     height: 80px;
     z-index: 38;
@@ -207,8 +205,8 @@ ul {
     cursor: pointer;
     color: #c997fb;
     position: absolute;
-    left: 269px;
-    top: 391px;
+    left: 267px;
+    top: 388px;
     width: 80px;
     height: 80px;
     z-index: 37;
@@ -222,8 +220,8 @@ ul {
     cursor: pointer;
     color: #bed7ef;
     position: absolute;
-    left: 357px;
-    top: 390px;
+    left: 348px;
+    top: 388px;
     width: 80px;
     height: 80px;
     z-index: 36;
@@ -233,10 +231,10 @@ ul {
 
 .Row_3 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 356px;
-  height: 587px;
+  left: 5px;
+  top: 472px;
+  width: 420px;
+  height: 84px;
   z-index: 34;
 }
 .Purple_Square_RThree {
@@ -246,7 +244,7 @@ ul {
     cursor: pointer;
     color: #c997fb;
     position: absolute;
-    left: 5px;
+    left: 4px;
     top: 472px;
     width: 80px;
     height: 80px;
@@ -272,13 +270,13 @@ ul {
 .Free_Square {
   background-image: url("Free_Square.png");
   position: absolute;
-	left: 176px;
-	top: 472px;
-	width: 80px;
-	height: 80px;
-	z-index: 31;
-	margin: 4px;
-	padding: 7px 35px;
+  left: 179px;
+  top: 472px;
+  width: 80px;
+  height: 80px;
+  z-index: 31;
+  margin: 4px;
+  padding: 7px 35px;
 }
 .Blue_Square_RThree {
 	background-color: #b4cbe2;
@@ -287,36 +285,36 @@ ul {
   cursor: pointer;
   color: #bed7ef;
   position: absolute;
-	left: 262px;
-	top: 472px;
-	width: 80px;
-	height: 80px;
-	z-index: 30;
-	margin: 4px;
-	padding: 7px 35px;
+  left: 267px;
+  top: 472px;
+  width: 80px;
+  height: 80px;
+  z-index: 30;
+  margin: 4px;
+  padding: 7px 35px;
 }
 .Red_Square_RThree {
-	background-color: #ec4a4a;
+  background-color: #ec4a4a;
   border: 3px solid #000000;
   display: inline-block;
   cursor: pointer;
   color: #ff5050;
-	position: absolute;
-	left: 348px;
-	top: 472px;
-	width: 80px;
-	height: 80px;
-	z-index: 29;
-	margin: 4px;
-	padding: 7px 35px;
+  position: absolute;
+  left: 348px;
+  top: 472px;
+  width: 80px;
+  height: 80px;
+  z-index: 29;
+  margin: 4px;
+  padding: 7px 35px;
 }
 
 .Row_4 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 356px;
-  height: 587px;
+  left: 4px;
+  top: 562px;
+  width: 420px;
+  height: 84px;
   z-index: 27;
 }
 .Red_Square_RFour {
@@ -327,7 +325,7 @@ ul {
     color: #ff5050;
     position: absolute;
     left: 4px;
-    top: 561px;
+    top: 562px;
     width: 80px;
     height: 80px;
     z-index: 26;
@@ -371,8 +369,8 @@ ul {
     cursor: pointer;
     color: #77b55a;
     position: absolute;
-    left: 265px;
-    top: 564px;
+    left: 267px;
+    top: 562px;
     width: 80px;
     height: 80px;
     z-index: 23;
@@ -386,7 +384,7 @@ ul {
     cursor: pointer;
     color: #bed7ef;
     position: absolute;
-    left: 353px;
+    left: 348px;
     top: 562px;
     width: 80px;
     height: 80px;
@@ -397,10 +395,10 @@ ul {
 
 .Row_5 {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 356px;
-  height: 587px;
+  left: 4px;
+  top: 650px;
+  width: 420px;
+  height: 84px;
   z-index: 20;
 }
 .Purple_Square_RFive {
@@ -410,7 +408,7 @@ ul {
     cursor: pointer;
     color: #c997fb;
     position: absolute;
-    left: 5px;
+    left: 4px;
     top: 650px;
     width: 80px;
     height: 80px;
@@ -456,7 +454,7 @@ ul {
     cursor: pointer;
     color: #bed7ef;
     position: absolute;
-    left: 266px;
+    left: 267px;
     top: 650px;
     width: 80px;
     height: 80px;
@@ -471,7 +469,7 @@ ul {
     cursor: pointer;
     color: #ff5050;
     position: absolute;
-    left: 354px;
+    left: 348px;
     top: 650px;
     width: 80px;
     height: 80px;
@@ -485,8 +483,8 @@ ul {
   cursor: pointer;
   color: #000000;
   position: absolute;
-  left: 6px;
-  top: 172px;
+  left: 2px;
+  top: 298px;
   width: 420px;
   height: 420px;
   z-index: 13;
