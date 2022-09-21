@@ -75,15 +75,15 @@ ul {
   position: absolute;
   left: 2px;
   top: 200px;
-  width: 430px;
+  width: 465px;
   height: 420px;
   z-index: 13;
 }
 
 .Row_1 {
-  position: relative;
-  left: 4px;
-  top: 300px;
+  position: absolute;
+  left: 6px;
+  top: 205px;
   width: 420px;
   height: 84px;
   z-index: 48;
