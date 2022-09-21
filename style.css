@@ -262,7 +262,7 @@ ul {
     color: #77b55a;
     position: absolute;
     left: 92px;
-    top: 473px;
+    top: 472px;
     width: 80px;
     height: 80px;
     z-index: 32;
@@ -273,7 +273,7 @@ ul {
   background-image: url("Free_Square.png");
   position: absolute;
 	left: 176px;
-	top: 314px;
+	top: 472px;
 	width: 80px;
 	height: 80px;
 	z-index: 31;
@@ -288,7 +288,7 @@ ul {
   color: #bed7ef;
   position: absolute;
 	left: 262px;
-	top: 314px;
+	top: 472px;
 	width: 80px;
 	height: 80px;
 	z-index: 30;
@@ -303,7 +303,7 @@ ul {
   color: #ff5050;
 	position: absolute;
 	left: 348px;
-	top: 314px;
+	top: 472px;
 	width: 80px;
 	height: 80px;
 	z-index: 29;
