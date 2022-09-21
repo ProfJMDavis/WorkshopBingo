@@ -68,8 +68,8 @@ ul {
   color: #000000;
   position: absolute;
   left: 2px;
-  top: 0px;
-  width: 420px;
+  top: 100px;
+  width: 430px;
   height: 420px;
   z-index: 13;
 }
