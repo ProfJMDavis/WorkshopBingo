@@ -155,7 +155,7 @@ ul {
 
 .Row_2 {
   position: relative;
-  top: 285px;
+  top: 164px;
   width: 460px;
   height: 84px;
   z-index: 41;
@@ -227,8 +227,8 @@ ul {
 }
 
 .Row_3 {
-  position: absolute;
-  top: 368px;
+  position: relative;
+  top: 370px;
   width: 460px;
   height: 84px;
   z-index: 34;
@@ -296,8 +296,8 @@ ul {
 }
 
 .Row_4 {
-  position: absolute;
-  top: 450px;
+  position: relative;
+  top: 454px;
   width: 460px;
   height: 84px;
   z-index: 27;
@@ -370,7 +370,7 @@ ul {
 
 .Row_5 {
   position: relative;
-  top: 532px;
+  top: 332px;
   width: 460px;
   height: 84px;
   z-index: 20;
