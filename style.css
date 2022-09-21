@@ -22,9 +22,11 @@ ul {
 #photo {
  border: 1px solid green;
  top: 0px;
- bottom: 800px
+ height: 750px;
+ width: 470px;
  padding: 2px;
 }
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -76,7 +78,7 @@ ul {
   left: 2px;
   top: 200px;
   width: 465px;
-  height: 420px;
+  height: 432px;
   z-index: 13;
 }
 
