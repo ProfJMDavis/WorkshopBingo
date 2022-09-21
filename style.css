@@ -62,8 +62,7 @@ ul {
 }
 
 .BlackUnderlay {
-  background-color: #000000;
-  border: 3px solid #000000;
+  background-image:url('BlackUnderlay.png')
   cursor: pointer;
   color: #000000;
   position: absolute;
