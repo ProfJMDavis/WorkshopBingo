@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 body {
@@ -78,7 +77,7 @@ ul {
 
 .BlackUnderlay {
   cursor: pointer;
-  background-image: url('Images/Black_Underlay.png');
+  background-image: url('Black_Underlay.png');
   background-color: #000000;
   position: absolute;
   top: 160px;
@@ -452,7 +451,7 @@ ul {
 
 .Get_1_square_credit_per_program {
   font-size: 14px;
-  font-family: "Arial";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -464,7 +463,7 @@ ul {
 }
 .__Crafts {
   font-size: 10px;
-  font-family: "Arial";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -476,7 +475,7 @@ ul {
 }
 .__Digital_Literacy {
   font-size: 10px;
-  font-family: "Arial";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -488,7 +487,7 @@ ul {
 }
 .__Adulting_Life_Skills {
   font-size: 10px;
-  font-family: "Arial";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -500,7 +499,7 @@ ul {
 }
 .__Information_Literacy {
   font-size: 11px;
-  font-family: "Berlin Sans FB Demi";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -512,7 +511,7 @@ ul {
 }
 .Attend_library_programs_and_workshops {
   font-size: 14px;
-  font-family: "Arial";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -524,7 +523,7 @@ ul {
 }
 .Library_Program_Bingo {
   font-size: 30px;
-  font-family: "Berlin Sans FB Demi";
+  font-family: "Open Sans", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
@@ -627,17 +626,17 @@ details[open] > summary {
   box-shadow: 1px 1px 1px black;
 }
 .myButton {
-            background-color: #77b55a;
-            border: 1px solid #4b8f29;
-            display: inline-block;
-            cursor: pointer;
-            color: #f0ebf0;
-            font-family: arial;
-            font-size: 13px;
-            font-weight: bold;
-			margin: 5px;
-            padding: 7px 35px;
-            text-decoration: none;
+	background-color: #77b55a;
+        border: 1px solid #4b8f29;
+        display: inline-block;
+        cursor: pointer;
+        color: #f0ebf0;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+	margin: 5px;
+        padding: 7px 35px;
+        text-decoration: none;
 }
 .CardSpan {
 	position: absolute;
