@@ -23,120 +23,168 @@
 	function MarkSquare(){
 	let string = varName;
 	if(document.getElementById(varName)){
-		switch {
+		switch(varName) {
 		case "G1":
 				document.getElementById("G1").src = "Images/Green_Torch.png";
+				break;
 		case "B1":
 				document.getElementById("B1").src = "Images/Blue_Torch.png";
+				break;
    		case "R1": 
 				document.getElementById("R1").src = "Images/Red_Torch.png";
+				break;
 		case "P1": 
 				document.getElementById("P1").src = "Images/Purple_Torch.png";
+				break;
 		case "G12":
 				document.getElementById("G12").src = "Images/Green_Torch.png";
+				break;
 		case "B2":
 				document.getElementById("B2").src = "Images/Blue_Torch.png";
+				break;
    		case "R2": 
 				document.getElementById("R2").src = "Images/Red_Torch.png";
+				break;
 		case "P2": 
 				document.getElementById("P2").src = "Images/Purple_Torch.png";
+				break;
 		case "G2":
 				document.getElementById("G2").src = "Images/Green_Torch.png";
+				break;
 		case "B22":
 				document.getElementById("B22").src = "Images/Blue_Torch.png";
+				break;
    		case "R3": 
 				document.getElementById("R3").src = "Images/Red_Torch.png";
+				break;
 		case "P3": 
 				document.getElementById("P3").src = "Images/Purple_Torch.png";
+				break;
 		case "G3":
 				document.getElementById("G3").src = "Images/Green_Torch.png";
+				break;
 		case "B3":
 				document.getElementById("B3").src = "Images/Blue_Torch.png";
+				break;
    		case "R4": 
 				document.getElementById("R4").src = "Images/Red_Torch.png";
+				break;
 		case "P4": 
 				document.getElementById("P4").src = "Images/Purple_Torch.png";
 		case "G4":
 				document.getElementById("G4").src = "Images/Green_Torch.png";
+				break;
 		case "B4":
 				document.getElementById("B4").src = "Images/Blue_Torch.png";
+				break;
    		case "R42": 
 				document.getElementById("R42").src = "Images/Red_Torch.png";
+				break;
 		case "P5": 
 				document.getElementById("P5").src = "Images/Purple_Torch.png";
+				break;
 		case "G5":
 				document.getElementById("G5").src = "Images/Green_Torch.png";
+				break;
 		case "P52": 
 				document.getElementById("P52").src = "Images/Purple_Torch.png";
+				break;
 		case "B5":
 				document.getElementById("B5").src = "Images/Blue_Torch.png";
+				break;
 		case "R5": 
 				document.getElementById("R5").src = "Images/Red_Torch.png";
+				break;
         alert('Square Marked');
        	break;
 
    		default: 
 			    alert('Default case');
+				break;
 			}
 		}
 	}
 		function UnMarkSquare(){
-			string varName;
+			let string = varName;
 			if(document.getElementById(varName)){
-				switch {
+				switch(varName) {
 					case "G1":
 						document.getElementById("G1").src = "Images/Green_Square.png";
+						break;
 					case "B1":
 						document.getElementById("B1").src = "Images/Blue_Square.png";
+						break;
 					case "R1": 
 						document.getElementById("R1").src = "Images/Red_Square.png";
+						break;
 					case "P1":
 						document.getElementById("P1").src = "Images/Purple_Square.png";
+						break;
 					case "G12":
 						document.getElementById("G12").src = "Images/Green_Square.png";
+						break;
 					case "B2":
 						document.getElementById("B2").src = "Images/Blue_Square.png";
+						break;
 					case "R2": 
 						document.getElementById("R2").src = "Images/Red_Square.png";
+						break;
 					case "P2": 
 						document.getElementById("P2").src = "Images/Purple_Square.png";
+						break;
 					case "G2":
 						document.getElementById("G2").src = "Images/Green_Square.png";
+						break;
 					case "B22":
 						document.getElementById("B22").src = "Images/Blue_Square.png";
+						break;
 					case "R3": 
 						document.getElementById("R3").src = "Images/Red_Square.png";
+						break;
 					case "P3": 
 						document.getElementById("P3").src = "Images/Purple_Square.png";
 					case "G3":
 						document.getElementById("G3").src = "Images/Green_Square.png";
+						break;
 					case "B3":
 						document.getElementById("B3").src = "Images/Blue_Square.png";
+						break;
    					case "R4": 
 						document.getElementById("R4").src = "Images/Red_Square.png";
+						break;
 					case "P4": 
 						document.getElementById("P4").src = "Images/Purple_Square.png";
+						break;
 					case "G4":
 						document.getElementById("G4").src = "Images/Green_Square.png";
+						break;
 					case "B4":
 						document.getElementById("B4").src = "Images/Blue_Square.png";
+						break;
    					case "R42": 
 						document.getElementById("R42").src = "Images/Red_Square.png";
+						break;
 					case "P5": 
 						document.getElementById("P5").src = "Images/Purple_Square.png";
+						break;
 					case "G5":
 						document.getElementById("G5").src = "Images/Green_Square.png";
+						break;
 					case "P52": 
 						document.getElementById("P52").src = "Images/Purple_Square.png";
+						break;
 					case "B5":
 						document.getElementById("B5").src = "Images/Blue_Square.png";
+						break;
 					case "R5": 
 						document.getElementById("R5").src = "Images/Red_Square.png";
+						break;
         				alert('Square Unmarked');
        					break;
 
    					default: 
 			    		alert('Default case');
+						break;
 					}
 				}
 			}
