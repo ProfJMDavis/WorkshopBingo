@@ -67,25 +67,23 @@ ul {
 .menu > li.trash > a:hover {
   color: red;
 }
-
-.btn-group {
-	position: absolute;
-	width: 443px;
-	height: 473px;
-	float: left;
-	top: 40px;
-}
-
 .BlackUnderlay {
   cursor: pointer;
   background-color: #000000;
-  position: relative;
+  position: absolute;
   top: 180px;
   width: 465px;
   height: 432px;
   z-index: 13;
 }
 
+.btn-group {
+	position: relative;
+	width: 443px;
+	height: 473px;
+	float: left;
+	top: 40px;
+}
 .Row_1 {
   position: relative;
   top: 1px;
