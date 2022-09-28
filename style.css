@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 body {
@@ -94,7 +93,7 @@ ul {
 }
 .Green_Square_ROne {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -107,7 +106,7 @@ ul {
 }
 .Purple_Square_ROne {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -120,7 +119,7 @@ ul {
 }
 .Blue_Square_ROne {
     background-image: url('Images/Blue_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
@@ -133,7 +132,7 @@ ul {
 }
 .Red_Square_ROne {
     background-image: url('Images/Red_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
@@ -146,7 +145,7 @@ ul {
 }
 .Green_Square_ROne_Two {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -167,7 +166,7 @@ ul {
 }
 .Blue_Square_RTwo {
     background-image: url('Images/Blue_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
@@ -180,7 +179,7 @@ ul {
 }
 .Red_Square_RTwo {
     background-image: url('Images/Red_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
@@ -193,7 +192,7 @@ ul {
 }
 .Green_Square_RTwo {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -206,7 +205,7 @@ ul {
 }
 .Purple_Square_RTwo {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -240,7 +239,7 @@ ul {
 }
 .Purple_Square_RThree {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -253,7 +252,7 @@ ul {
 }
 .Green_Square_RThree {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -276,7 +275,7 @@ ul {
 }
 .Blue_Square_RThree {
   background-image: url('Images/Blue_Square.png');
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   display: inline-block;
   cursor: pointer;
   background-color: #bed7ef;
@@ -289,7 +288,7 @@ ul {
 }
 .Red_Square_RThree {
   background-image: url('Images/Red_Square.png');
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   display: inline-block;
   cursor: pointer;
   background-color: #ff5050;
@@ -310,7 +309,7 @@ ul {
 }
 .Red_Square_RFour {
     background-image: url('Images/Red_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
@@ -323,7 +322,7 @@ ul {
 }
 .Purple_Square_RFour {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -336,7 +335,7 @@ ul {
 }
 .Red_Square_RFour_Two {
     background-image: url('Images/Red_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
@@ -349,7 +348,7 @@ ul {
 }
 .Green_Square_RFour {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -362,7 +361,7 @@ ul {
 }
 .Blue_Square_RFour {
     background-image: url('Images/Blue_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
@@ -383,7 +382,7 @@ ul {
 }
 .Purple_Square_RFive {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -396,7 +395,7 @@ ul {
 }
 .Green_Square_RFive {
     background-image: url('Images/Green_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
@@ -409,7 +408,7 @@ ul {
 }
 .Purple_Square_RFive_Two {
     background-image: url('Images/Purple_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
@@ -423,7 +422,7 @@ ul {
 .Blue_Square_RFive {
     background-image: url('Images/Blue_Square.png');
     background-color: #b4cbe2;
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -435,7 +434,7 @@ ul {
 }
 .Red_Square_RFive {
     background-image: url('Images/Red_Square.png');
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
