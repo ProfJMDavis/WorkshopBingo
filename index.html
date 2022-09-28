@@ -93,8 +93,10 @@
 			string varName;
 			if(document.getElementById(varName)){
 				switch {
-					case "G1":				document.getElementById("G1").src = "Images/Green_Square.png";
-					case "B1":				document.getElementById("B1").src = "Images/Blue_Square.png";
+					case "G1":
+						document.getElementById("G1").src = "Images/Green_Square.png";
+					case "B1":
+						document.getElementById("B1").src = "Images/Blue_Square.png";
 					case "R1": 
 						document.getElementById("R1").src = "Images/Red_Square.png";
 					case "P1":
@@ -185,7 +187,7 @@
 		<p class="Attend_library_programs_and_workshops">Attend Library programs and workshops.</p>		
 		<p class="Get_1_square_credit_per_program">Get one square credit per program.</p>
 		<p class="__Information_Literacy"> = Information Literacy</p>		
-		<img src="Images/Purple_Square.png" class="InfLiteracy" alt="Course Button" style="border: solid;" />		
+		<img src="Images/Purple_Square.png" class="InfLiteracy" alt="Information Literacy" style="border: solid;" />		
 		<p class="__Digital_Literacy"> = Digital Literacy</p>
 		<img src="Images/Green_Square.png" class="DigitLiteracy" alt="Course Button" style="border: solid;" />
 		<p class="__Adulting_Life_Skills"> = Adulting Life Skills</p>		
@@ -203,45 +205,45 @@
 		    <br />
 		    <div id="button-group" class="btn-group">
 			<div class="Row_1">
-				<input type="button" id="G1" class="Green_Square_ROne" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" />
-				<input type="button" id="P1" class="Purple_Square_ROne" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" />
-				<input type="button" id="B1" class="Blue_Square_ROne" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" />
-				<input type="button" id="R1" class="Red_Square_ROne" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" />
-				<input type="button" id="G12" class="Green_Square_ROne_Two" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" /> 
+				<input type="button" id="G1" class="Green_Square_ROne" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
+				<input type="button" id="P1" class="Purple_Square_ROne" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+				<input type="button" id="B1" class="Blue_Square_ROne" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
+				<input type="button" id="R1" class="Red_Square_ROne" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
+				<input type="button" id="G12" class="Green_Square_ROne_Two" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
 			</div>
 			<div class="Row_2">
-				<input type="button" is ="B2" class="Blue_Square_RTwo" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" />
-				<input type="button" id="R2" class="Red_Square_RTwo" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" />
-				<input type="button" id="G2" class="Green_Square_RTwo" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" />
-				<input type="button" id="P2" class="Purple_Square_RTwo" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" />
-				<input type="button" id="B22" class="Blue_Square_RTwo_Two" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" />
+				<input type="button" is ="B2" class="Blue_Square_RTwo" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
+				<input type="button" id="R2" class="Red_Square_RTwo" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
+				<input type="button" id="G2" class="Green_Square_RTwo" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
+				<input type="button" id="P2" class="Purple_Square_RTwo" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+				<input type="button" id="B22" class="Blue_Square_RTwo_Two" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
 			</div>
 			<div class="Row_3">	
-				<input type="button" id="P3" class="Purple_Square_RThree" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" />
-				<input type="button" id="G3" class="Green_Square_RThree" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" />
+				<input type="button" id="P3" class="Purple_Square_RThree" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+				<input type="button" id="G3" class="Green_Square_RThree" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
 				<input type="button" id="Free_Square" class="Free_Square" onclick="ChangeTextFR()" oncontextmenu = "rightClick()" />
-				<input type="button" id="B3" class="Blue_Square_RThree" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" />
-				<input type="button" id="R3" class="Red_Square_RThree" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" />
+				<input type="button" id="B3" class="Blue_Square_RThree" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
+				<input type="button" id="R3" class="Red_Square_RThree" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
 			</div>
 			<div class="Row_4">	
-				<input type="button" id="R4" class="Red_Square_RFour" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="P4" class="Purple_Square_RFour" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="R42" class="Red_Square_RFour_Two" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="G4" class="Green_Square_RFour" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="B4" class="Blue_Square_RFour" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" />
+				<input type="button" id="R4" class="Red_Square_RFour" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
+		    		<input type="button" id="P4" class="Purple_Square_RFour" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+		    		<input type="button" id="R42" class="Red_Square_RFour_Two" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
+		    		<input type="button" id="G4" class="Green_Square_RFour" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
+		    		<input type="button" id="B4" class="Blue_Square_RFour" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
 				</div>
 			<div class="Row_5">
-		    		<input type="button" id="P5" class="Purple_Square_RFive" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="G5" class="Green_Square_RFive" onclick="ChangeTextDL()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="P52" class="Purple_Square_RFive_Two" onclick="ChangeTextIL()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="B5" class="Blue_Square_RFive" onclick="ChangeTextCR()" oncontextmenu = "rightClick()" /> 
-		    		<input type="button" id="R5" class="Red_Square_RFive" onclick="ChangeTextAD()" oncontextmenu = "rightClick()" />
+		    		<input type="button" id="P5" class="Purple_Square_RFive" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+		    		<input type="button" id="G5" class="Green_Square_RFive" onclick="ChangeTextDL()" oncontextmenu = "rightClick()">DL</button>
+		    		<input type="button" id="P52" class="Purple_Square_RFive_Two" onclick="ChangeTextIL()" oncontextmenu = "rightClick()">IL</button>
+		    		<input type="button" id="B5" class="Blue_Square_RFive" onclick="ChangeTextCR()" oncontextmenu = "rightClick()">CR</button>
+		    		<input type="button" id="R5" class="Red_Square_RFive" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
 				</div>
 			</div>		
 		<div id="contextMenu" class="context-menu" style="display: none">
 			<ul>
-        			<li><input type="button" id=Mark class=MarkInput onclick="MarkSquare()"></li>
-        			<li><input type="button" id=UnMark class=UnMarkInput onclick="UnMarkSquare()"></li>
+        			<li><input type="button" id=Mark class=MarkInput onclick="MarkSquare()">Add Mark</li>
+        			<li><input type="button" id=UnMark class=UnMarkInput onclick="UnMarkSquare()">Remove Mark</li>
     			</ul>
 		</div>
 		<details open>
@@ -250,8 +252,8 @@
 		</details>
 		    <p><span class="CardSpan">Bingo Card</span></p>
         		<br />
-		    	<!--<img src="Images/BingoCard.png" style="width: 450px; height: 800px;" alt="Voucher 1" />-->
-		    	<input type ="image" src="Images/BingoCard.png" alt="Bingo Card" onclick="VoucherPrint('source'); return false;" class="Voucher" />
+		    	<img src="Images/BingoCard.png" style="width: 450px; height: 800px;" display=none alt="Bingo Card">
+		    	<input type ="button" onclick="VoucherPrint('source'); return false;" class="Voucher" />
 			</div>
 </body>
 </html>
