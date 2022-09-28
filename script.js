@@ -21,7 +21,7 @@
         }
     }
 	function MarkSquare(){
-	string varName;
+	let string = varName;
 	if(document.getElementById(varName)){
 		switch {
 		case "G1":
