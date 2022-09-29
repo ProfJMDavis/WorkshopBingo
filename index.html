@@ -71,12 +71,12 @@
 		    		<button type="button" id="R5" class="Red_Square_RFive" onclick="ChangeTextAD()" oncontextmenu = "rightClick()">AD</button>
 				</div>
 			</div>		
-		<menu id="contextMenu" class="context-menu" style="display: none">
+		<div id="contextMenu" class="context-menu" style="display: none">
 			<ul>
-				<li><menu title="Add Mark" id=Mark class=MarkInput onclick="MarkSquare()"></menu></li>
-        			<li><menu title="Remove Mark" id=UnMark class=UnMarkInput onclick="UnMarkSquare()"></menu></li>
+				<li><button type="button" id="Mark" class="MarkInput" onclick="MarkSquare()">"Add Mark"</button></li>
+        			<li><button type="button" id="UnMark" class="UnMarkInput" onclick="UnMarkSquare()">"Remove Mark"</button></li>
     			</ul>
-		</menu>
+		</div>
 		<details open>
 		<summary>(Click a square to see a category description)</summary>
 		<div id="divElementCaption"><p></p></div>
