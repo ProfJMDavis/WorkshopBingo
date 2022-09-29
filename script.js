@@ -9,11 +9,11 @@
     function rightClick(event) {
         event.preventDefault();
         if (document.getElementById("contextMenu")
-	    	var contextMenu = document.getElementById("contextMenu");
+	    let contextMenu = document.getElementById("contextMenu");
             contextMenu.style.display = 'block';
             hideMenu();
         else{
-            var contextMenu = document.getElementById("contextMenu");
+            let contextMenu = document.getElementById("contextMenu");
             contextMenu.style.display = 'block';
             contextMenu.style.left = event.pageX + "px";
             contextMenu.style.top = event.pageY + "px";
