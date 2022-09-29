@@ -9,14 +9,15 @@
     function rightClick(event) {
         event.preventDefault();
 	var contextMenu = document.getElementById("contextMenu");
-        if (document.getElementById("contextMenu")
-                .style.display == "block")
+        if (document.getElementById("contextMenu") {
+            contextMenu.style.display = 'block';
             hideMenu();
+    }
         else{
             var contextMenu = document.getElementById("contextMenu");
             contextMenu.style.display = 'block';
-            contextMenu.style.left = e.pageX + "px";
-            contextMenu.style.top = e.pageY + "px";
+            contextMenu.style.left = event.pageX + "px";
+            contextMenu.style.top = event.pageY + "px";
         }
     }
 	function MarkSquare(){
