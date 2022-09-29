@@ -8,8 +8,8 @@
   
     function rightClick(event) {
         event.preventDefault();
-	var contextMenu = document.getElementById("contextMenu");
         if (document.getElementById("contextMenu")
+	    	var contextMenu = document.getElementById("contextMenu");
             contextMenu.style.display = 'block';
             hideMenu();
         else{
