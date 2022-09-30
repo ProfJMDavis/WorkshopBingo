@@ -16,12 +16,12 @@
             var menu = document.getElementById("contextMenu")
   
             menu.style.display = 'block';
-            menu.style.left = e.pageX + "px";
-            menu.style.top = e.pageY + "px";
+            menu.style.left = event.pageX + "px";
+            menu.style.top = event.pageY + "px";
         }
     }
 	function MarkSquare(){
-	let string = varName;
+	var varName = document.getElementById(string);
 	if(document.getElementById(varName)){
 		switch(varName) {
 		case "G1":
@@ -105,7 +105,7 @@
 		}
 	}
 		function UnMarkSquare(){
-			let string = varName;
+			var varName = document.getElementById(string);
 			if(document.getElementById(varName)){
 				switch(varName) {
 					case "G1":
