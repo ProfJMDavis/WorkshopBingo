@@ -205,18 +205,18 @@
             pwa.document.close();
             pwa.print();
         }
-	    function ChangeTextIL(){
+	    function ChangeTextIL(document){
 		document.getElementById("divElement").innerHTML="Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
 	}
-	    function ChangeTextDL(){
+	    function ChangeTextDL(document){
 		document.getElementById("divElement").innerHTML="Digital Literacy: 1) Your Wake Tech Accounts & Using Office 365 Apps, 2) Using NC Live & Library Databases. Right-click to add Code from a completed workshop.";
 	}
-	    function ChangeTextAD(){
+	    function ChangeTextAD(document){
 		document.getElementById("divElement").innerHTML="Adulting Life Skills: 1) Adulting 101, 2) Meal Planning 101, 3) Talking via Tech: Social Media Etiquette. Right-click to add Code from a completed workshop.";
 	}
-	    function ChangeTextCR(){
+	    function ChangeTextCR(document){
 		document.getElementById("divElement").innerHTML="Crafts: 1) Wish Bracelets, 2) Woven Bowls. Right-click to add Code from a completed workshop.";
 	}
-            function ChangeTextFR(){
+            function ChangeTextFR(document){
 		document.getElementById("divElement").innerHTML="This block does not need to be filled by a program or workshop.";
 	}
