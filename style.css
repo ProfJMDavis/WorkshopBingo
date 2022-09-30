@@ -532,6 +532,7 @@ ul {
   z-index: 6;
 }
 .AdultSkills {
+background-image: url('Red_Square.png');
   background-color: #ff5050;
   position: absolute;
   left: 17px;
@@ -541,6 +542,7 @@ ul {
   z-index: 5;
 }
 .DigitLiteracy {
+background-image: url('Green_Square.png');
   background-color: #77b55a;
   position: absolute;
   left: 188px;
@@ -550,6 +552,7 @@ ul {
   z-index: 4;
 }
 .CraftSkills {
+background-image: url('Blue_Square.png');
   background-color: #bed7ef;
   position: absolute;
   left: 189px;
@@ -559,6 +562,7 @@ ul {
   z-index: 3;
 }
 .InfLiteracy {
+background-image: url('Purple_Square.png');
   background-color: #c997fb;
   position: absolute;
   left: 17px;
@@ -609,7 +613,7 @@ details[open] > summary {
   box-shadow: 1px 1px 2px black;
 }
 
-#divElementCaption {
+#divElement {
   position: relative;
   top: 19px;
 }
@@ -643,7 +647,7 @@ details[open] > summary {
 	font-size: 30px;
 }
 .Voucher {
-	background-image: url("Images/BingoCard.png");
+	background-image: url("BingoCard.png");
 	position: absolute;
 	left: 0px;
 	top: 790px;
