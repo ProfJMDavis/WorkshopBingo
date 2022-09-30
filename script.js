@@ -3,23 +3,23 @@
       
     function hideMenu() {
         document.getElementById("contextMenu")
-                contextMenu.style.display = "none"
+                .style.display = "none"
     }
   
     function rightClick(event) {
         event.preventDefault();
-  	    let contextMenu = document.getElementById("contextMenu");
+  	    var contextmenu = document.getElementById("contextMenu");
 	    if (document.getElementById("contextMenu")
-            contextMenu.style.display = 'block';
+            contextmenu.style.display = 'block';
             hideMenu();
         else{
-            contextMenu.style.display = 'block';
-            contextMenu.style.left = event.pageX + "px";
-            contextMenu.style.top = event.pageY + "px";
+            contextmenu.style.display = 'block';
+            contextmenu.style.left = event.pageX + "px";
+            contextmenu.style.top = event.pageY + "px";
         }
     }
 	function MarkSquare(){
-	let string = varName;
+	var varName = document.getElementById(string);
 	if(document.getElementById(varName)){
 		switch(varName) {
 		case "G1":
@@ -103,7 +103,7 @@
 		}
 	}
 		function UnMarkSquare(){
-			let string = varName;
+			var varName = document.getElementById(string);
 			if(document.getElementById(varName)){
 				switch(varName) {
 					case "G1":
