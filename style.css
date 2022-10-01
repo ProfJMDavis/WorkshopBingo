@@ -12,6 +12,10 @@ body {
 ul {
   list-style: none;
 }
+label {
+	height: 80px;
+	width: 80px;
+	z-index: 10;
 #photo {
  border: 1px solid green;
  top: 0px;
@@ -32,8 +36,9 @@ input[type="checkbox"] + label span {
 }
 input[type="checkbox"]:checked + label span {
     	background-image: url('WTTorch.png');
+	background-size: 80%;
         background-position: center center;
-	z-index:40;
+	z-index:50;
         background-repeat: no-repeat;
 }
 
