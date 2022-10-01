@@ -32,8 +32,7 @@ input[type="checkbox"] + label span {
 }
 input[type="checkbox"]:checked + label span {
     	background-image: url('WTTorch.png');
-	background-size: 100%;
-        background-position: center center;
+        background-position: right bottom;
         background-repeat: no-repeat;
 }
 
@@ -70,7 +69,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 47;
     margin: 4px;
     padding: 7px 35px;
@@ -82,7 +81,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 46;
     margin: 4px;
     padding: 7px 35px;
@@ -94,7 +93,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #bed7ef;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 45;
     margin: 4px;
     padding: 7px 35px;
@@ -106,7 +105,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #ff5050;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 44;
     margin: 4px;
     padding: 7px 35px;
@@ -118,7 +117,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 43;
     margin: 4px;
     padding: 7px 35px;
@@ -138,7 +137,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #bed7ef;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 40;
     margin: 4px;
     padding: 7px 35px;
@@ -150,7 +149,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #ff5050;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 39;
     margin: 4px;
     padding: 7px 35px;
@@ -162,7 +161,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 38;
     margin: 4px;
     padding: 7px 35px;
@@ -174,7 +173,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 37;
     margin: 4px;
     padding: 7px 35px;
@@ -186,7 +185,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #bed7ef;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 36;
     margin: 4px;
     padding: 7px 35px;
@@ -206,7 +205,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 33;
     margin: 4px;
     padding: 7px 35px;
@@ -218,7 +217,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 32;
     margin: 4px;
     padding: 7px 35px;
@@ -229,6 +228,8 @@ input[type="checkbox"]:checked + label span {
   background-color: #FFFFFF;
   position: relative;
   top: 25px;
+  width: 80px;
+  height: 80px;
   z-index: 31;
   margin: 5px;
   padding: 7px 35px;
@@ -240,7 +241,7 @@ input[type="checkbox"]:checked + label span {
   background-color: #bed7ef;
   position: relative;
   width: 20px;
-  height: 80px;
+  height: 20px;
   z-index: 30;
   margin: 4px;
   padding: 7px 35px;
@@ -252,7 +253,7 @@ input[type="checkbox"]:checked + label span {
   background-color: #ff5050;
   position: relative;
   width: 20px;
-  height: 80px;
+  height: 20px;
   z-index: 29;
   margin: 4px;
   padding: 7px 35px;
@@ -271,7 +272,7 @@ input[type="checkbox"]:checked + label span {
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 80px;
+    width: 20px;
     height: 20px;
     z-index: 26;
     margin: 4px;
@@ -284,7 +285,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 25;
     margin: 4px;
     padding: 7px 35px;
@@ -296,7 +297,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #ff5050;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 24;
     margin: 4px;
     padding: 7px 35px;
@@ -308,7 +309,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 23;
     margin: 4px;
     padding: 7px 35px;
@@ -320,7 +321,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #bed7ef;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 22;
     margin: 4px;
     padding: 7px 35px;
@@ -340,7 +341,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 19;
     margin: 4px;
     padding: 7px 35px;
@@ -352,7 +353,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #77b55a;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 18;
     margin: 4px;
     padding: 7px 35px;
@@ -364,7 +365,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #c997fb;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 17;
     margin: 4px;
     padding: 7px 35px;
@@ -376,7 +377,7 @@ input[type="checkbox"]:checked + label span {
     cursor: pointer;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 16;
     margin: 4px;
     padding: 7px 35px;
@@ -388,7 +389,7 @@ input[type="checkbox"]:checked + label span {
     background-color: #ff5050;
     position: relative;
     width: 20px;
-    height: 80px;
+    height: 20px;
     z-index: 15;
     margin: 4px;
     padding: 7px 35px;
