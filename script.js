@@ -20,7 +20,10 @@
             menu.style.top = event.pageY + "px";
         }
     }
-	function MarkSquare(){
+	function MarkSquare(event){
+		$(document).click(function(event){
+      		MarkSquare(event);
+ });
 	var varName = document.getElementById(string);
 	if(document.getElementById(varName)){
 		switch(varName) {
