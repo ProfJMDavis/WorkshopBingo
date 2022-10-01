@@ -33,6 +33,7 @@ input[type="checkbox"] + label span {
 input[type="checkbox"]:checked + label span {
     	background-image: url('WTTorch.png');
         background-position: center center;
+	z-index:40;
         background-repeat: no-repeat;
 }
 
