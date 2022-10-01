@@ -25,7 +25,7 @@
       <p class="Get_1_square_credit_per_program">Get one square credit per program.</p>
       <p>
         <details open>
-          <summary>Click a square to see a category description</summary>
+          <summary>Click a category to see a description</summary>
           <div id="divElementCaption">
             <p><br />...</p>
           </div>
@@ -72,8 +72,8 @@
 			</div>		
 		<div id="contextMenu" class="context-menu" style="display: none">
 			<ul>
-        			<li><button type="button" id=Mark class=MarkInput onclick="MarkSquare()">Add Mark</button></li>
-        			<li><button type="button" id=UnMark class=UnMarkInput onclick="UnMarkSquare()">Remove Mark</button></li>
+        			<li><button type="button" id="Mark" class="MarkInput" onclick="MarkSquare()">Add Mark</button></li>
+        			<li><button type="button" id="UnMark" class="UnMarkInput" onclick="UnMarkSquare()">Remove Mark</button></li>
     			</ul>
 		</div>
 		<details open>
@@ -82,7 +82,7 @@
 		</details>
 		    <p><span class="CardSpan">Bingo Card</span></p>
         		<br />
-		    	<img src="BingoCard.png" class="Voucher" style="width: 450px; height: 800px; display: none" alt="Bingo Card">
+		    	<img src="BingoCard.png" id=source class="Voucher" style="width: 450px; height: 800px; display: none" alt="Bingo Card">
 		    	<button type="button" onclick="VoucherPrint('source'); return false;">Print</button>
 			</div>
 </body>
