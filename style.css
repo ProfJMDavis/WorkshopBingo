@@ -16,6 +16,7 @@ label {
 	height: 80px;
 	width: 80px;
 	z-index: 10;
+}
 #photo {
  border: 1px solid green;
  top: 0px;
