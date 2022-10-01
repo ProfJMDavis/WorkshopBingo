@@ -35,7 +35,7 @@ input[type="checkbox"] + label span {
 }
 input[type="checkbox"]:checked + label span {
     	background-image: url('WTTorch.png');
-	background-size: 100%;
+	background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
 }
@@ -240,6 +240,7 @@ input[type="checkbox"]:checked + label span {
 }
 .Free_Square {
   background-image: url('Free_Square.png');
+  background-repeat: no-repeat;
   background-color: #FFFFFF;
   position: relative;
   top: 25px;
