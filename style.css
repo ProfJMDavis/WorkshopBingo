@@ -30,6 +30,22 @@ ul {
   position: absolute;
   top: 420px;
 }
+input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+input[type="checkbox"]::before {
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+input[type="checkbox"]:checked::before {
+    content: url('WTTorch.png');
+}
 
 .menu {
   display: flex;
@@ -57,14 +73,17 @@ ul {
   -o-transition: 0.5s linear;
 }
 .menu > li > a:hover {
-  background: #f1f3f7;
+  background: lightblue;
   color: #4b00ff;
 }
 .menu > li > a > i {
   padding-right: 10px;
 }
-.menu > li.trash > a:hover {
-  color: red;
+.menu > li.UnMark > a:hover {
+  color: lightred;
+}
+.menu > li.Mark > a:hover {
+  color: lightgreen;
 }
 .BlackUnderlay {
   cursor: pointer;
@@ -91,6 +110,7 @@ ul {
   height: 84px;
   z-index: 48;
 }
+
 .Green_Square_ROne {
     background-image: url('Green_Square.png');
     border: 3px solid #000000;
