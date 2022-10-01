@@ -647,7 +647,7 @@ details[open] > summary {
 	font-size: 30px;
 }
 .Voucher {
-	background-image: url("BingoCard.png");
+	background-image: url('BingoCard.png');
 	position: absolute;
 	left: 0px;
 	top: 790px;
