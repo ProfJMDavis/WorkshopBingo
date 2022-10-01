@@ -21,7 +21,7 @@
         }
     }
 	function MarkSquare(event){
-	var varName = document.getElementById(string);
+	var varName;
 	if(document.getElementById(varName)){
 		switch(varName) {
 		case "G1":
@@ -105,7 +105,7 @@
 		}
 	}
 		function UnMarkSquare(){
-			var varName = document.getElementById(string);
+			var varName;
 			if(document.getElementById(varName)){
 				switch(varName) {
 					case "G1":
