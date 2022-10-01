@@ -12,13 +12,6 @@ body {
 ul {
   list-style: none;
 }
-.context-menu {
-  position: absolute;
-  top: 800px;
-  display: block;
-  z-index: 50;
-}
-
 #photo {
  border: 1px solid green;
  top: 0px;
@@ -35,7 +28,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"] + label span {
-    display: block;
+    display: inline-block;
     width: 80px;
     height: 80px;
     overflow: hidden;
