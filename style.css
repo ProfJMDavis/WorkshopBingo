@@ -31,17 +31,18 @@ ul {
   top: 420px;
 }
 input[type="checkbox"] {
-    width: 80px;
-    height: 80px;
+	display: none;
+	width: 80px;
+    	height: 80px;
 }
 
-input[type="checkbox"]::before {
+input[type="checkbox"] + label {
     display: block;
     width: 80px;
     height: 80px;
     overflow: hidden;
 }
-input[type="checkbox"]:checked::before {
+input[type="checkbox"]:checked + label{
     content: url('WTTorch.png');
 }
 
