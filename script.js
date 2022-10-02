@@ -24,12 +24,12 @@
 
 const button = document.body.querySelector('[data-target="#collapseExample"]');
 
-button.addEventListener('click', function() {
-if(button.innerText === '...') {
+button.addEventListener('click', function(event) {
+if(button.innerText === 'empty') {
 button.innerText = 'COURSE TAKEN';
 }
   else {
-button.innerText = '...';
+button.innerText = 'empty';
 }
 });
 
