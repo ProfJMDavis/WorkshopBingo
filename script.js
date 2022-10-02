@@ -22,7 +22,7 @@
     }
 
 
-function changeText(event) {
+function changeText() {
   if (this.innerText === "O") { // check if text inside is "O"
     this.innerText == "COURSE TAKEN";    // If so, change to "Course Taken"
   } else {
