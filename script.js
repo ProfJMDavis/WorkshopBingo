@@ -206,6 +206,9 @@
       pwa.document.write(VoucherSourcetoPrint(source));
       pwa.document.close();
     }
+    function printPage() {
+      window.print();
+    }
 
     function ChangeTextIL() {
       document.getElementById("divElementCaption").innerHTML = "Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism. Right-click to add Code from a completed workshop.";
