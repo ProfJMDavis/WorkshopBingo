@@ -32,9 +32,6 @@ input[type="checkbox"] {
 	display: none;
 }
 
-input[type="checkbox"] {
-    display: inline-block;
-}
 input[type="checkbox"]:checked {
     	background-color: url('WTTorch.png');
 	background-size: 80%;
