@@ -24,7 +24,7 @@
 
 const button = document.body.querySelector('[data-target="#collapseExample"]');
 
-button.addEventListener('click', function(event) {
+button.addEventListener('click', function() {
 if(button.innerText === 'empty') {
 button.innerText = 'COURSE TAKEN';
 }
