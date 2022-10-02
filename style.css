@@ -435,7 +435,7 @@ ul {
   text-align: left;
   position: absolute;
   left: 233px;
-  top: 118.421px;
+  top: 170px;
   z-index: 10;
 }
 .__Adulting_Life_Skills {
@@ -459,7 +459,7 @@ ul {
   text-align: left;
   position: absolute;
   left: 66.062px;
-  top: 115.633px;
+  top: 170px;
   z-index: 8;
 }
 .Attend_library_programs_and_workshops {
@@ -513,7 +513,7 @@ background-image: url('Green_Square.png');
   background-color: #77b55a;
   position: absolute;
   left: 188px;
-  top: 115px;
+  top: 170px;
   width: 42px;
   height: 16px;
   z-index: 4;
@@ -533,7 +533,7 @@ background-image: url('Purple_Square.png');
   background-color: #c997fb;
   position: absolute;
   left: 17px;
-  top: 115px;
+  top: 170px;
   width: 42px;
   height: 16px;
   z-index: 2;
