@@ -22,16 +22,13 @@
     }
 
 
-const button = document.body.querySelector('[data-target="#collapseExample"]');
-
-button.addEventListener('click', function() {
-if(button.innerText === 'empty') {
-button.innerText = 'COURSE TAKEN';
+function changeText() {
+  if (this.innerText == ".") { // check if text inside is "More"
+    this.innerText == "COURSE TAKEN";    // If so, change to "Less"
+  } else {
+    this.innerText == ".";
+  }
 }
-  else {
-button.innerText = 'empty';
-}
-});
 
     function MarkSquare() {
       var varName = document.getElementById(string);
