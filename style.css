@@ -627,6 +627,9 @@ details[open] > summary {
   margin: 0;
   box-shadow: 1px 1px 1px black;
 }
+input.right {
+        float: right;
+}
 .myButton {
     background-color: #77b55a;
     border: 1px solid #4b8f29;
