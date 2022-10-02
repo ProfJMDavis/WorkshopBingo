@@ -22,11 +22,11 @@
     }
 
 
-function changeText() {
-  if (this.innerText == "x") { // check if text inside is "More"
-    this.innerText == "COURSE TAKEN";    // If so, change to "Less"
+function changeText(event) {
+  if (this.innerText === "O") { // check if text inside is "O"
+    this.innerText == "COURSE TAKEN";    // If so, change to "Course Taken"
   } else {
-    this.innerText == "x";
+    this.innerText == "O";
   }
 }
 
