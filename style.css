@@ -12,13 +12,6 @@ body {
 ul {
   list-style: none;
 }
-.context-menu {
-  position: absolute;
-  top: 800px;
-  display: block;
-  z-index: 50;
-}
-
 #photo {
  border: 1px solid green;
  top: 0px;
@@ -30,42 +23,6 @@ ul {
   position: absolute;
   top: 420px;
 }
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
-  padding: 10px 0;
-}
-.menu > li > a {
-  font: inherit;
-  border: 0;
-  padding: 10px 30px 10px 15px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: relative;
-  text-decoration: unset;
-  color: #000;
-  font-weight: 500;
-  transition: 0.5s linear;
-  -webkit-transition: 0.5s linear;
-  -moz-transition: 0.5s linear;
-  -ms-transition: 0.5s linear;
-  -o-transition: 0.5s linear;
-}
-.menu > li > a:hover {
-  background: #f1f3f7;
-  color: #4b00ff;
-}
-.menu > li > a > i {
-  padding-right: 10px;
-}
-.menu > li.trash > a:hover {
-  color: red;
-}
 .BlackUnderlay {
   cursor: pointer;
   background-color: #000000;
@@ -75,7 +32,6 @@ ul {
   height: 432px;
   z-index: 13;
 }
-
 .btn-group {
 	position: relative;
 	width: 443px;
@@ -446,7 +402,6 @@ ul {
     margin: 4px;
     padding: 7px 35px;
 }
-
 .Get_1_square_credit_per_program {
   font-size: 14px;
   font-family: "Arial", Calibri, sans-serif;
@@ -531,6 +486,18 @@ ul {
   top: 25px;
   z-index: 6;
 }
+.Categories {
+  font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  left: 17px;
+  top: 10px;
+  z-index: 6;
+}
+
 .AdultSkills {
 background-image: url('Red_Square.png');
   background-color: #ff5050;
@@ -612,38 +579,28 @@ details[open] > summary {
   border: none;
   box-shadow: 1px 1px 2px black;
 }
-
-#divElement {
+#divElementCaption {
   position: relative;
   top: 19px;
-}
-
-.screenshot {
-  border-radius: 0 0 1px 1px;
-  top: 0px;
-  height: 750px;
-  background-color: white;
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 1px 1px 1px black;
 }
 #right {
         float: right;
 }
 .myButton {
-    background-color: #77b55a;
-    border: 1px solid #4b8f29;
-    display: block;
-    position: absolute;
-    margin-top:5%;
-    cursor: pointer;
-    color: #f0ebf0;
-    font-family: "Arial", Calibri, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-     margin: 3px;
-     padding: 5px 5px;
-     text-decoration: none;
+	background-color: #77b55a;
+	border: 1px solid #4b8f29;
+	display: block;
+	position: absolute;
+	right: 538px;
+	margin-top:5%;
+	cursor: pointer;
+	color: #f0ebf0;
+	font-family: "Arial", Calibri, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 3px;
+	padding: 5px 5px;
+	text-decoration: none;
 }
 .CardSpan {
 	position: absolute;
@@ -651,10 +608,5 @@ details[open] > summary {
 	color: Blue;
 	font-size: 30px;
 }
-.Voucher {
-	background-image: url('BingoCard.png');
-	position: absolute;
-	left: 0px;
-	top: 790px;
-}
+
 	
