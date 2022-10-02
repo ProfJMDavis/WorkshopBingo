@@ -21,6 +21,27 @@
       }
     }
 
+/*
+Fetch the buttom element
+*/
+const button = document.body.querySelector('[data-target="#collapseExample"]');
+
+/*
+Add click event listener where we will provide logic that updates the button text
+*/
+button.addEventListener('click', function() {
+  
+  /*
+  Update the text of the button to toggle beween "Empty Square" and "Course Taken" when clicked
+  */
+  if(button.innerText === ' ') {
+    button.innerText = 'COURSE TAKEN';
+  }
+  else {
+    button.innerText = '  ';
+  }
+});
+
     function MarkSquare() {
       var varName = document.getElementById(string);
       if (document.getElementById(varName)) {
