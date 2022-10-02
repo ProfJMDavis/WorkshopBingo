@@ -12,11 +12,13 @@ body {
 ul {
   list-style: none;
 }
-label {
-	height: 80px;
-	width: 80px;
-	z-index: 10;
+.context-menu {
+  position: absolute;
+  top: 800px;
+  display: block;
+  z-index: 50;
 }
+
 #photo {
  border: 1px solid green;
  top: 0px;
@@ -28,18 +30,42 @@ label {
   position: absolute;
   top: 420px;
 }
-input[type="checkbox"] {
-	display: none;
-}
 
-input[type="checkbox"]:checked {
-    	background-color: url('WTTorch.png');
-	background-size: 80%;
-        background-position: center center;
-	z-index:50;
-        background-repeat: no-repeat;
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  padding: 10px 0;
 }
-
+.menu > li > a {
+  font: inherit;
+  border: 0;
+  padding: 10px 30px 10px 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: unset;
+  color: #000;
+  font-weight: 500;
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+}
+.menu > li > a:hover {
+  background: #f1f3f7;
+  color: #4b00ff;
+}
+.menu > li > a > i {
+  padding-right: 10px;
+}
+.menu > li.trash > a:hover {
+  color: red;
+}
 .BlackUnderlay {
   cursor: pointer;
   background-color: #000000;
@@ -65,63 +91,67 @@ input[type="checkbox"]:checked {
   height: 84px;
   z-index: 48;
 }
-
 .Green_Square_ROne {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 47;
     margin: 4px;
     padding: 7px 35px;
 }
 .Purple_Square_ROne {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 46;
     margin: 4px;
     padding: 7px 35px;
 }
 .Blue_Square_ROne {
+    background-image: url('Blue_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 45;
     margin: 4px;
     padding: 7px 35px;
 }
 .Red_Square_ROne {
+    background-image: url('Red_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 44;
     margin: 4px;
     padding: 7px 35px;
 }
 .Green_Square_ROne_Two {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 43;
     margin: 4px;
     padding: 7px 35px;
@@ -135,61 +165,66 @@ input[type="checkbox"]:checked {
   z-index: 41;
 }
 .Blue_Square_RTwo {
+    background-image: url('Blue_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 40;
     margin: 4px;
     padding: 7px 35px;
 }
 .Red_Square_RTwo {
+    background-image: url('Red_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 39;
     margin: 4px;
     padding: 7px 35px;
 }
 .Green_Square_RTwo {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 38;
     margin: 4px;
     padding: 7px 35px;
 }
 .Purple_Square_RTwo {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 37;
     margin: 4px;
     padding: 7px 35px;
 }
 .Blue_Square_RTwo_Two {
+    background-image: url('Blue_Square.png');
     border: 2px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 36;
     margin: 4px;
     padding: 7px 35px;
@@ -203,32 +238,33 @@ input[type="checkbox"]:checked {
   z-index: 34;
 }
 .Purple_Square_RThree {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 33;
     margin: 4px;
     padding: 7px 35px;
 }
 .Green_Square_RThree {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 32;
     margin: 4px;
     padding: 7px 35px;
 }
 .Free_Square {
   background-image: url('Free_Square.png');
-  background-repeat: no-repeat;
   background-color: #FFFFFF;
   position: relative;
   top: 25px;
@@ -239,25 +275,27 @@ input[type="checkbox"]:checked {
   padding: 7px 35px;
 }
 .Blue_Square_RThree {
+  background-image: url('Blue_Square.png');
   border: 3px solid #000000;
   display: inline-block;
   cursor: pointer;
   background-color: #bed7ef;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   z-index: 30;
   margin: 4px;
   padding: 7px 35px;
 }
 .Red_Square_RThree {
+  background-image: url('Red_Square.png');
   border: 3px solid #000000;
   display: inline-block;
   cursor: pointer;
   background-color: #ff5050;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   z-index: 29;
   margin: 4px;
   padding: 7px 35px;
@@ -271,61 +309,66 @@ input[type="checkbox"]:checked {
   z-index: 27;
 }
 .Red_Square_RFour {
+    background-image: url('Red_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 26;
     margin: 4px;
     padding: 7px 35px;
 }
 .Purple_Square_RFour {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 25;
     margin: 4px;
     padding: 7px 35px;
 }
 .Red_Square_RFour_Two {
+    background-image: url('Red_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 24;
     margin: 4px;
     padding: 7px 35px;
 }
 .Green_Square_RFour {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 23;
     margin: 4px;
     padding: 7px 35px;
 }
 .Blue_Square_RFour {
+    background-image: url('Blue_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #bed7ef;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 22;
     margin: 4px;
     padding: 7px 35px;
@@ -339,61 +382,66 @@ input[type="checkbox"]:checked {
   z-index: 20;
 }
 .Purple_Square_RFive {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 19;
     margin: 4px;
     padding: 7px 35px;
 }
 .Green_Square_RFive {
+    background-image: url('Green_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #77b55a;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 18;
     margin: 4px;
     padding: 7px 35px;
 }
 .Purple_Square_RFive_Two {
+    background-image: url('Purple_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #c997fb;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 17;
     margin: 4px;
     padding: 7px 35px;
 }
 .Blue_Square_RFive {
+    background-image: url('Blue_Square.png');
     background-color: #b4cbe2;
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 16;
     margin: 4px;
     padding: 7px 35px;
 }
 .Red_Square_RFive {
+    background-image: url('Red_Square.png');
     border: 3px solid #000000;
     display: inline-block;
     cursor: pointer;
     background-color: #ff5050;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     z-index: 15;
     margin: 4px;
     padding: 7px 35px;
@@ -580,14 +628,14 @@ details[open] > summary {
   box-shadow: 1px 1px 1px black;
 }
 .myButton {
-            background-color: #77b55a;
-            border: 1px solid #4b8f29;
-            display: inline-block;
-            cursor: pointer;
-            color: #f0ebf0;
-            font-family: arial;
-            font-size: 13px;
-            font-weight: bold;
+    background-color: #77b55a;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #f0ebf0;
+    font-family: "Arial", Calibri, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 			margin: 5px;
             padding: 7px 35px;
             text-decoration: none;
