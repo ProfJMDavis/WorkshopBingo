@@ -631,8 +631,8 @@ details[open] > summary {
     background-color: #77b55a;
     border: 1px solid #4b8f29;
     display: block;
-    position:relative;
-    margin-top:100%;
+    position: absolute;
+    margin-top:5%;
     cursor: pointer;
     color: #f0ebf0;
     font-family: "Arial", Calibri, sans-serif;
