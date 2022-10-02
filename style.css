@@ -627,7 +627,7 @@ details[open] > summary {
   margin: 0;
   box-shadow: 1px 1px 1px black;
 }
-input.right {
+#right {
         float: right;
 }
 .myButton {
