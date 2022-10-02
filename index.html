@@ -6,7 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="script.js"></script>
+    <script>
+      function changeText() {
+        if (this.innerText === "O") { // check if text inside is "O"
+          this.innerText == "COURSE TAKEN";    // If so, change to "Course Taken"
+        } else {
+          this.innerText == "O";
+        }
+      }
+      function printPage() {
+        window.print();
+      }
+      function ChangeTextIL() {
+        document.getElementById("divElementCaption").innerHTML = "Information Literacy: 1) Finding Scholarly Resources Effectively, 2) Fake News & Evaluating Information, 3) Plagiarism.";
+      }
+      function ChangeTextDL() {
+        document.getElementById("divElementCaption").innerHTML = "Digital Literacy: 1) Your Wake Tech Accounts & Using Office 365 Apps, 2) Using NC Live & Library Databases.";
+      }
+      function ChangeTextAD() {
+      document.getElementById("divElementCaption").innerHTML = "Adulting Life Skills: 1) Adulting 101, 2) Meal Planning 101, 3) Talking via Tech: Social Media Etiquette";
+      }
+      function ChangeTextCR() {
+        document.getElementById("divElementCaption").innerHTML = "Crafts: 1) Wish Bracelets, 2) Woven Bowls.";
+      }
+      function ChangeTextFR() {
+        document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
+      }
+    </script>
   </head>
 
   <body>
