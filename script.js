@@ -23,10 +23,10 @@
 
 
 function changeText() {
-  if (this.innerText == ".") { // check if text inside is "More"
+  if (this.innerText == "x") { // check if text inside is "More"
     this.innerText == "COURSE TAKEN";    // If so, change to "Less"
   } else {
-    this.innerText == ".";
+    this.innerText == "x";
   }
 }
 
