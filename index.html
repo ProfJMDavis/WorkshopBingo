@@ -1,99 +1,88 @@
 <!DOCTYPE html>
 <html lang=en>
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
-	  <link href="style.css" rel="stylesheet" type="text/css" />
-	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
-	<script src="script.js"></script>
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
   <body>
     <div id="photo" style="float: left;">
       <h1 class="Library_Program_Bingo">Library Program Bingo</h1>
       <p class="Attend_library_programs_and_workshops">Attend Library programs and workshops.</p>
       <p class="Get_1_square_credit_per_program">Get one square credit per program.</p>
       <p class="__Information_Literacy"> = Information Literacy</p>
-      <button type="img" src="Purple_Square.png" class="InfLiteracy" onclick="ChangeTextIL()" Literacy">o</button>
+      <input type="image" src="Purple_Square.png" class="InfLiteracy" onclick="ChangeTextIL()" alt="Information Literacy">
       <p class="__Digital_Literacy"> = Digital Literacy</p>
-      <button type="img" src="Green_Square.png" class="DigitLiteracy" onclick="ChangeTextDL()" alt="Digital Literacy">o</button>
+      <input type="image" src="Green_Square.png" class="DigitLiteracy" onclick="ChangeTextDL()" alt="Digital Literacy">
       <p class="__Adulting_Life_Skills"> = Adulting Life Skills</p>
-      <button type="img" src="Red_Square.png" class="AdultSkills" onclick="ChangeTextAD()" alt="Adulting Skills">o</button>
+      <input type="image" src="Red_Square.png" class="AdultSkills" onclick="ChangeTextAD()" alt="Adulting Skills">
       <p class="__Crafts"> = Crafts</p>
-      <button type="img" src="Blue_Square.png" class="CraftSkills" onclick="ChangeTextCR()" alt="Craft Skills">o</button>
+      <input type="image" src="Blue_Square.png" class="CraftSkills" onclick="ChangeTextCR()" alt="Craft Skills">
       <p class="Attend_library_programs_and_workshops">Attend Library programs and workshops.</p>
       <p class="Get_1_square_credit_per_program">Get one square credit per program.</p>
-		    <br />
-		    <br />
-		 	<div id="button-group" class="btn-group">
-			<div class="Row_1">
-				<input type="checkbox" id="G1"/>
-				<label for='G1' height="80px" width="80px"><span><img class="Green_Square_ROne"/></span></label>
-				<input type="checkbox" id="P1"/>
-				<label for='P1'><span><img src="Purple_Square.png" class="Purple_Square_ROne"/></span></label>
-				<input type="checkbox" id="B1"/>
-				<label for='B1'><span><img src="Blue_Square.png" class="Blue_Square_ROne"></span></label>
-				<input type="checkbox" id="R1"/>
-				<label for='R1'><span><img src="Red_Square.png" class="Red_Square_ROne"/></span></label>
-				<input type="checkbox" id="G12"/>
-				<label for='G12'><span><img src="Green_Square.png" class="Green_Square_ROne_Two"/></span></label>
-			</div>
-			<div class="Row_2">
-				<input type="checkbox" id ="B2"/>
-				<label for='B2'><span><img src="Blue_Square.png" class="Blue_Square_RTwo"/></span></label>
-				<input type="checkbox" id="R2"/>
-				<label for='R2'><span><img src="Red_Square.png" class="Red_Square_RTwo"/></span></label>
-				<input type="checkbox" id="G2"/>
-				<label for='G2'><span><img src="Green_Square.png" class="Green_Square_RTwo"/></span></label>
-				<input type="checkbox" id="P2"/>
-				<label for='P2'><span><img src="Purple_Square.png" class="Purple_Square_RTwo"/></span></label>
-				<input type="checkbox" id="B22"/>
-				<label for='B22'><span><img src="Blue_Square.png" class="Blue_Square_RTwo_Two"/></span></label>
-			</div>
-			<div class="Row_3">	
-				<input type="checkbox" id="P3"/>
-				<label for='P3'><span><img src="Blue_Square.png" class="Purple_Square_RThree"/></span></label>
-				<input type="checkbox" id="G3"/>
-				<label for='G3'><span><img src="Green_Square.png" class="Green_Square_RThree"/></span></label>
-				<input type="image" id="Free_Square" class="Free_Square"/>
-				<input type="checkbox" id="B3"/>
-				<label for='B3'><span><img src="Blue_Square.png" class="Blue_Square_RThree"/></span></label>
-				<input type="checkbox" id="R3"/>
-				<label for='R3'><span><img src="Red_Square.png" class="Red_Square_RThree"/></span></label>
-			</div>
-			<div class="Row_4">	
-				<input type="checkbox" id="R4"/>
-				<label for='R4'><span><img src="Red_Square.png" class="Red_Square_RFour"/></span></label>
-		    		<input type="checkbox" id="P4"/>
-				<label for='P4'><span><img src="Purple_Square.png" class="Purple_Square_RFour"/></span></label>
-		    		<input type="checkbox" id="R42"/>
-				<label for='R42'><span><img src="Red_Square.png" class="Red_Square_RFour_Two"/></span></label>
-		    		<input type="checkbox" id="G4"/>
-				<label for='G4'><span><img src="Green_Square.png" class="Green_Square_RFour" /></span></label>
-		    		<input type="checkbox" id="B4"/>
-				<label for='B4'><span><img src="Blue_Square.png" class="Blue_Square_RFour"/></span></label>
-				</div>
-			<div class="Row_5">
-		    		<input type="checkbox" id="P5"/>
-				<label for='P5'><span><img src="Purple_Square.png" class="Purple_Square_RFive"/></span></label>
-		    		<input type="checkbox" id="G5"/>
-				<label for='G5'><span><img src="Green_Square.png" class="Green_Square_RFive"/></span></label>
-		    		<input type="checkbox" id="P52"/>
-				<label for='P52'><span><img src="Purple_Square.png" class="Purple_Square_RFive_Two" /></span></label>
-		    		<input type="checkbox" id="B5"/>
-				<label for='B5'><span><img src="Blue_Square.png" class="Blue_Square_RFive"/></span></label>
-		    		<input type="checkbox" id="R5"/>
-				<label for='R5'><span><img src="Red_Square.png" class="Red_Square_RFive"/></span></label>
-				</div>
-			</div>		
-		<details open>
-		<summary>(Click a category to see a description)</summary>
-		<div id="divElementCaption"><p>...</p></div>
-		</details>
-		    <p><span class="CardSpan">Bingo Card</span></p>
-        		<br />
-		    	<img src="BingoCard.png" id=source class="Voucher" style="width: 450px; height: 800px; display: none" alt="Bingo Card">
-		    	<button type="button" onclick="VoucherPrint('source'); return false;">Print</button>
-			</div>
-</body>
+      <p>
+        <details open>
+          <summary>Click a category to see a description</summary>
+          <div id="divElementCaption">
+            <p><br />...</p>
+          </div>
+        </details>
+      </p>
+      <br />
+      <br />
+      <div id="button-group" class="btn-group">
+        <div class="Row_1">
+          <button type="button" id="G1" class="Green_Square_ROne" oncontextmenu="rightClick()">DL</button>
+          <button type="button" id="P1" class="Purple_Square_ROne" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="B1" class="Blue_Square_ROne" oncontextmenu="rightClick()">CR</button>
+          <button type="button" id="R1" class="Red_Square_ROne" oncontextmenu="rightClick()">AD</button>
+          <button type="button" id="G12" class="Green_Square_ROne_Two" oncontextmenu="rightClick()">DL</button>
+        </div>
+        <div class="Row_2">
+          <button type="button" id="B2" class="Blue_Square_RTwo" oncontextmenu="rightClick()">CR</button>
+          <button type="button" id="R2" class="Red_Square_RTwo" oncontextmenu="rightClick()">AD</button>
+          <button type="button" id="G2" class="Green_Square_RTwo" oncontextmenu="rightClick()">DL</button>
+          <button type="button" id="P2" class="Purple_Square_RTwo" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="B22" class="Blue_Square_RTwo_Two" oncontextmenu="rightClick()">CR</button>
+        </div>
+        <div class="Row_3">
+          <button type="button" id="P3" class="Purple_Square_RThree" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="G3" class="Green_Square_RThree" oncontextmenu="rightClick()">DL</button>
+          <button type="button" id="Free_Square" class="Free_Square" oncontextmenu="rightClick()" />
+          <button type="button" id="B3" class="Blue_Square_RThree" oncontextmenu="rightClick()">CR</button>
+          <button type="button" id="R3" class="Red_Square_RThree" oncontextmenu="rightClick()">AD</button>
+        </div>
+        <div class="Row_4">
+          <button type="button" id="R4" class="Red_Square_RFour" oncontextmenu="rightClick()">AD</button>
+          <button type="button" id="P4" class="Purple_Square_RFour" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="R42" class="Red_Square_RFour_Two" oncontextmenu="rightClick()">AD</button>
+          <button type="button" id="G4" class="Green_Square_RFour" oncontextmenu="rightClick()">DL</button>
+          <button type="button" id="B4" class="Blue_Square_RFour" oncontextmenu="rightClick()">CR</button>
+        </div>
+        <div class="Row_5">
+          <button type="button" id="P5" class="Purple_Square_RFive" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="G5" class="Green_Square_RFive" oncontextmenu="rightClick()">DL</button>
+          <button type="button" id="P52" class="Purple_Square_RFive_Two" oncontextmenu="rightClick()">IL</button>
+          <button type="button" id="B5" class="Blue_Square_RFive" oncontextmenu="rightClick()">CR</button>
+          <button type="button" id="R5" class="Red_Square_RFive" oncontextmenu="rightClick()">AD</button>
+        </div>
+      </div>
+      <div id="contextMenu" class="context-menu" style="display: none">
+        <ul>
+          <li><button type="button" id="Mark" class="MarkInput" onclick="MarkSquare()">Add Mark</button></li>
+          <li><button type="button" id="UnMark" class="UnMarkInput" onclick="UnMarkSquare()">Remove Mark</button></li>
+        </ul>
+      </div>
+      <p><span class="CardSpan">Bingo Card</span></p>
+      <br />
+      <img src="BingoCard.png" id=source class="Voucher" style="width: 450px; height: 800px; display: none" alt="Bingo Card">
+      <button type="button" onclick="VoucherPrint('source'); return false;">Print</button>
+    </div>
+  </body>
+
 </html>
