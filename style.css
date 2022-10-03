@@ -16,7 +16,7 @@ ul {
  border: 1px solid green;
  top: 0px;
  height: 750px;
- width: 478px;
+ width: 560px;
  padding: 2px;
 }
 .span {
@@ -40,7 +40,7 @@ ul {
   position: relative;
   top: 140px;
   left: 0px;
-  width: 500px;
+  width: 600px;
   height: 84px;
   z-index: 48;
 }
@@ -114,7 +114,7 @@ ul {
 .Row_2 {
   position: relative;
   top: 140px;
-  width: 460px;
+  width: 600px;
   height: 84px;
   z-index: 41;
 }
@@ -187,7 +187,7 @@ ul {
 .Row_3 {
   position: relative;
   top: 115px;
-  width: 460px;
+  width: 600px;
   height: 84px;
   z-index: 34;
 }
@@ -258,7 +258,7 @@ ul {
 .Row_4 {
   position: relative;
   top: 140px;
-  width: 460px;
+  width: 600px;
   height: 84px;
   z-index: 27;
 }
@@ -331,7 +331,7 @@ ul {
 .Row_5 {
   position: relative;
   top: 140px;
-  width: 460px;
+  width: 600px;
   height: 84px;
   z-index: 20;
 }
@@ -554,11 +554,12 @@ details {
 }
 
 details > summary {
-  padding: 4px 6px;
-  background-color: #ddd;
-  border: none;
-  box-shadow: 1px 1px 2px black;
-  cursor: pointer;
+	padding: 4px 6px;
+	background-color: #ddd;
+	border: none;
+	width: 580px;
+	box-shadow: 1px 1px 2px black;
+	cursor: pointer;
 }
 
 details > p {
@@ -578,12 +579,15 @@ details[open] > summary {
   box-shadow: 1px 1px 2px black;
 }
 #divElementCaption {
-  position: relative;
-  top: 19px;
+	position: relative;
+	top: 19px;
+	width: 580px;
 }
+
 #right {
         float: left;
 }
+
 .myButton {
 	background-color: #77b55a;
 	border: 1px solid #4b8f29;
