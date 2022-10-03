@@ -7,12 +7,9 @@
     <title>Bingo Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script>
+      $('button').prepend('<input type="checkbox" />');
       function changeText() {
-        if (this.innerText == "O") { // check if text inside is "O"
-          this.innerText == "COURSE TAKEN";    // If so, change to "Course Taken"
-        } else {
-          this.innerText == "O";
-        }
+        this.innerHTML="COURSE TAKEN";
       }
       function printPage() {
         window.print();
