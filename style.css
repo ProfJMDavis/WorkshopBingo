@@ -557,7 +557,7 @@ details > summary {
 	padding: 4px 6px;
 	background-color: #ddd;
 	border: none;
-	width: 580px;
+	width: 480px;
 	box-shadow: 1px 1px 2px black;
 	cursor: pointer;
 }
@@ -581,7 +581,7 @@ details[open] > summary {
 #divElementCaption {
 	position: relative;
 	top: 19px;
-	width: 580px;
+	width: 480px;
 }
 
 #right {
