@@ -39,7 +39,7 @@ ul {
 .Row_1 {
   position: relative;
   top: 140px;
-  left: 0px;
+  left: 10px;
   width: 500px;
   height: 84px;
   z-index: 48;
@@ -113,6 +113,7 @@ ul {
 
 .Row_2 {
   position: relative;
+  left: 10px;
   top: 140px;
   width: 500px;
   height: 84px;
@@ -186,6 +187,7 @@ ul {
 
 .Row_3 {
   position: relative;
+  left: 10px;
   top: 115px;
   width: 500px;
   height: 84px;
@@ -257,6 +259,7 @@ ul {
 
 .Row_4 {
   position: relative;
+  left: 10px;
   top: 140px;
   width: 500px;
   height: 84px;
@@ -330,6 +333,7 @@ ul {
 
 .Row_5 {
   position: relative;
+  left: 10px;
   top: 140px;
   width: 500px;
   height: 84px;
@@ -610,5 +614,53 @@ details[open] > summary {
 	color: Blue;
 	font-size: 30px;
 }
+.Torch {
+  background-image: url("Torch.png");
+  position: absolute;
+  left: 308px;
+  top: 530px;
+  width: 41px;
+  height: 51px;
+  z-index: 3;
+}
+.Get_One_Square_Credit {
+  font-size: 14px;
+  font-family: "Berlin Sans FB Demi";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 42.062px;
+  top: 46.867px;
+  z-index: 11;
+}
+.See_Upcoming_Events_Here: {
+  font-size: 14px;
+  font-family: "Berlin Sans FB Demi";
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 530.805px;
+  z-index: 10;
+}
+.https:__waketech_libcal_com_libraryevents {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(59, 39, 255);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 551.588px;
+  z-index: 9;
+}
+
+
 
 	
