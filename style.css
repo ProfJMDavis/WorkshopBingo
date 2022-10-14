@@ -15,7 +15,7 @@ ul {
 #photo {
  border: 1px solid green;
  top: 0px;
- height: 750px;
+ height: 800px;
  width: 500px;
  padding: 2px;
 }
@@ -644,11 +644,11 @@ details[open] > summary {
   text-align: left;
   position: absolute;
   left: 10px;
-  top: 530.805px;
+  bottom: 140px;
   z-index: 10;
 }
 .LibraryEvents {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Arial";
   color: rgb(59, 39, 255);
   font-weight: bold;
@@ -657,7 +657,7 @@ details[open] > summary {
   text-align: left;
   position: absolute;
   left: 10px;
-  top: 551.588px;
+  bottom: 120px;
   z-index: 9;
 }
 
