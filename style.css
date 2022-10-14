@@ -635,7 +635,7 @@ details[open] > summary {
   top: 46.867px;
   z-index: 11;
 }
-.See_Upcoming_Events_Here: {
+.UpcomingEvents {
   font-size: 14px;
   font-family: "Berlin Sans FB Demi";
   color: rgb(58, 58, 58);
@@ -647,7 +647,7 @@ details[open] > summary {
   top: 530.805px;
   z-index: 10;
 }
-.https:__waketech_libcal_com_libraryevents {
+.LibraryEvents {
   font-size: 14px;
   font-family: "Arial";
   color: rgb(59, 39, 255);
