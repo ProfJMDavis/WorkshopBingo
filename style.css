@@ -406,14 +406,14 @@ ul {
 }
 .Get_1_square_credit_per_program {
   font-size: 14px;
-  font-family: "Arial", Calibri, sans-serif;
+  font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
   position: absolute;
   left: 15px;
-  top: 80px;
+  top: 76px;
   z-index: 12;
 }
 .__Crafts {
@@ -465,15 +465,15 @@ ul {
   z-index: 8;
 }
 .Attend_library_programs_and_workshops {
-  font-size: 14px;
-  font-family: "Arial", Calibri, sans-serif;
+  font-size: 16px;
+  font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
   position: absolute;
   left: 15px;
-  top: 60px;
+  top: 54px;
   z-index: 7;
 }
 .Library_Program_Bingo {
