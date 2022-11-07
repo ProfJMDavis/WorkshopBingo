@@ -404,18 +404,6 @@ ul {
     margin: 4px;
     padding: 7px 35px;
 }
-.Get_1_square_credit_per_program {
-  font-size: 14px;
-  font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
-  color: rgb(58, 58, 58);
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 15px;
-  top: 76px;
-  z-index: 12;
-}
 .__Crafts {
   font-size: 10px;
   font-family: "Arial", Calibri, sans-serif;
@@ -625,15 +613,15 @@ details[open] > summary {
 }
 .Get_One_Square_Credit {
   font-size: 14px;
-  font-family: "Berlin Sans FB Demi";
+  font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
   position: absolute;
-  left: 42.062px;
-  top: 46.867px;
-  z-index: 11;
+  left: 15px;
+  top: 76px;
+  z-index: 12;
 }
 .UpcomingEvents {
   font-size: 14px;
@@ -644,7 +632,7 @@ details[open] > summary {
   text-align: left;
   position: absolute;
   left: 10px;
-  bottom: 140px;
+  bottom: 160px;
   z-index: 10;
 }
 .LibraryEvents {
@@ -657,7 +645,7 @@ details[open] > summary {
   text-align: left;
   position: absolute;
   left: 10px;
-  bottom: 120px;
+  bottom: 140px;
   z-index: 9;
 }
 
