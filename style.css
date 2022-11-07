@@ -542,7 +542,7 @@ background-image: url('Purple_Square.png');
 details {
   position: absolute;
   top: 640px;
-  font: 16px "Open Sans", Calibri, sans-serif;
+  font: 14px "Open Sans", Calibri, sans-serif;
 }
 
 details > summary {
