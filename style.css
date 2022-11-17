@@ -446,9 +446,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 234px;
+  left: 234px;
   top: 144px;
   z-index: 11;
 }
@@ -458,9 +458,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 233px;
+  left: 233px;
   top: 170px;
   z-index: 10;
 }
@@ -470,9 +470,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 66px;
+  left: 66px;
   top: 143.421px;
   z-index: 9;
 }
@@ -482,9 +482,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 66.062px;
+  left: 66.062px;
   top: 170px;
   z-index: 8;
 }
@@ -494,9 +494,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 15px;
+  left: 15px;
   top: 50px;
   z-index: 7;
 }
@@ -506,9 +506,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 15px;
+  left: 15px;
   top: 15px;
   z-index: 6;
 }
@@ -517,9 +517,9 @@ ul {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: relative;
-  right: 15px;
+  left: 15px;
   top: 104px;
   z-index: 6;
 }
@@ -528,7 +528,7 @@ ul {
 background-image: url('Red_Square.png');
   background-color: #ff5050;
   position: absolute;
-  right: 17px;
+  left: 17px;
   top: 141px;
   width: 42px;
   height: 16px;
@@ -538,7 +538,7 @@ background-image: url('Red_Square.png');
 background-image: url('Green_Square.png');
   background-color: #77b55a;
   position: absolute;
-  right: 188px;
+  left: 188px;
   top: 170px;
   width: 42px;
   height: 16px;
@@ -548,7 +548,7 @@ background-image: url('Green_Square.png');
 background-image: url('Blue_Square.png');
   background-color: #bed7ef;
   position: absolute;
-  right: 189px;
+  left: 189px;
   top: 142px;
   width: 42px;
   height: 16px;
@@ -558,7 +558,7 @@ background-image: url('Blue_Square.png');
 background-image: url('Purple_Square.png');
   background-color: #c997fb;
   position: absolute;
-  right: 17px;
+  left: 17px;
   top: 170px;
   width: 42px;
   height: 16px;
