@@ -30,3 +30,8 @@ function printPage() {
     function ChangeTextFR() {
       document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
     }
+var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+
