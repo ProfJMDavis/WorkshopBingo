@@ -484,7 +484,7 @@ ul {
   line-height: 1.2;
   text-align: left;
   position: absolute;
-  left: 66.062px;
+  left: 66px;
   top: 170px;
   z-index: 8;
 }
@@ -548,7 +548,7 @@ background-image: url('Green_Square.png');
 background-image: url('Blue_Square.png');
   background-color: #bed7ef;
   position: absolute;
-  left: 189px;
+  left: 188px;
   top: 142px;
   width: 42px;
   height: 16px;
@@ -653,9 +653,9 @@ details[open] > summary {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 15px;
+  left: 15px;
   top: 76px;
   z-index: 12;
 }
@@ -665,9 +665,9 @@ details[open] > summary {
   color: rgb(58, 58, 58);
   font-weight: bold;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 10px;
+  left: 10px;
   bottom: 160px;
   z-index: 10;
 }
@@ -678,9 +678,9 @@ details[open] > summary {
   font-weight: bold;
   text-decoration: underline;
   line-height: 1.2;
-  text-align: right;
+  text-align: left;
   position: absolute;
-  right: 10px;
+  left: 10px;
   bottom: 140px;
   z-index: 9;
 }
