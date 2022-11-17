@@ -74,9 +74,9 @@ ul {
 }
 .Row_1 {
   position: relative;
-  top: 140px;
+  top: 100px;
   left: 10px;
-  width: 500px;
+  width: 460px;
   height: 84px;
   z-index: 48;
 }
@@ -150,8 +150,8 @@ ul {
 .Row_2 {
   position: relative;
   left: 10px;
-  top: 140px;
-  width: 500px;
+  top: 100px;
+  width: 460px;
   height: 84px;
   z-index: 41;
 }
@@ -224,8 +224,8 @@ ul {
 .Row_3 {
   position: relative;
   left: 10px;
-  top: 115px;
-  width: 500px;
+  top: 90px;
+  width: 460px;
   height: 84px;
   z-index: 34;
 }
@@ -296,8 +296,8 @@ ul {
 .Row_4 {
   position: relative;
   left: 10px;
-  top: 140px;
-  width: 500px;
+  top: 100px;
+  width: 460px;
   height: 84px;
   z-index: 27;
 }
@@ -370,8 +370,8 @@ ul {
 .Row_5 {
   position: relative;
   left: 10px;
-  top: 140px;
-  width: 500px;
+  top: 100px;
+  width: 460px;
   height: 84px;
   z-index: 20;
 }
@@ -519,8 +519,8 @@ ul {
   line-height: 1.2;
   text-align: left;
   position: relative;
-  left: 15px;
-  top: 104px;
+  left: 10px;
+  top: 50px;
   z-index: 6;
 }
 
