@@ -9,6 +9,15 @@ body {
   background: #f2f4f6;
   overflow: hidden;
 }
+body.active .wrapper .sidebar{
+    left: -225px;
+}
+
+body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+}
+
 ul {
   list-style: none;
 }
