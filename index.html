@@ -7,34 +7,7 @@
     <title>Bingo Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/cd2c763e64.js" crossorigin="anonymous"></script>
-    <script>
-    var hamburger = document.querySelector(".hamburger");
-      hamburger.addEventListener("click", () => {
-        document.querySelector("body").classList.toggle("active");
-      })
-
-       function changeText() {
-        this.innerHTML="COURSE TAKEN";
-      }
-      function printPage() {
-        window.print();
-      }
-      function ChangeTextIL() {
-        document.getElementById("divElementCaption").innerHTML = "Information Literacy: Workshops or classes involving the collection and interpretation of written texts ranging from advertising to scholarly journal publications.";
-      }
-      function ChangeTextDL() {
-        document.getElementById("divElementCaption").innerHTML = "Digital Literacy: Workshops or classes examining technology, software, and/or the use of technology in a variety of settings.";
-      }
-      function ChangeTextAD() {
-      document.getElementById("divElementCaption").innerHTML = "Adulting Life Skills: Skills that are useful for teens and young adults to navigate better in their lives as they approach maturity.";
-      }
-      function ChangeTextCR() {
-        document.getElementById("divElementCaption").innerHTML = "Crafts: Workshops or classes on crafting skills with an emphasis on creative design and arrangement.";
-      }
-      function ChangeTextFR() {
-        document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
-      }
-    </script>
+    
   </head>
 
   <body>
@@ -175,5 +148,33 @@
           <button type="button" class="Red_Square_RFive"><input type="checkbox" id="R5"></button>
       </div>
     </div>
+      <script>
+    var hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", () => {
+        document.querySelector("body").classList.toggle("active");
+      })
+
+       function changeText() {
+        this.innerHTML="COURSE TAKEN";
+      }
+      function printPage() {
+        window.print();
+      }
+      function ChangeTextIL() {
+        document.getElementById("divElementCaption").innerHTML = "Information Literacy: Workshops or classes involving the collection and interpretation of written texts ranging from advertising to scholarly journal publications.";
+      }
+      function ChangeTextDL() {
+        document.getElementById("divElementCaption").innerHTML = "Digital Literacy: Workshops or classes examining technology, software, and/or the use of technology in a variety of settings.";
+      }
+      function ChangeTextAD() {
+      document.getElementById("divElementCaption").innerHTML = "Adulting Life Skills: Skills that are useful for teens and young adults to navigate better in their lives as they approach maturity.";
+      }
+      function ChangeTextCR() {
+        document.getElementById("divElementCaption").innerHTML = "Crafts: Workshops or classes on crafting skills with an emphasis on creative design and arrangement.";
+      }
+      function ChangeTextFR() {
+        document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
+      }
+    </script>
   </body>
 </html>
