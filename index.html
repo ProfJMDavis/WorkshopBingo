@@ -28,6 +28,10 @@
       function ChangeTextFR() {
         document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
       }
+      var hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
     </script>
   </head>
 
@@ -45,7 +49,7 @@
         </div>
 <div class="sidebar">
 <div class="profile">
-                <img src="torch.png" alt="profile_picture">
+                <img src="WTTorch.png" alt="profile_picture">
                 <h3>Wake Tech</h3>
                 <p>Library Events</p>
             </div>
