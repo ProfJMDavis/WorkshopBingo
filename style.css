@@ -10,6 +10,23 @@ body {
   background: #f2f4f6;
   overflow: hidden;
 }
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
 .top-nav {
   display: flex;
   flex-direction: row;
