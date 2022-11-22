@@ -1,74 +1,101 @@
 <!DOCTYPE html>
 <html lang=en>
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bingo Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/cd2c763e64.js" crossorigin="anonymous"></script>
+
+    <script>
+
+    </script>
   </head>
+
   <body>
-    <input type="checkbox" class="toggler">
-    <div class="hamburger"><div></div></div>
-    <div class="menu">
-          <div class="profile">
+
+<div class="wrapper">
+<div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                  <button class="fa-solid fa-ellipsis-vertical" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+<div class="sidebar">
+<div class="profile">
                 <img src="WTTorch.png" alt="profile_picture">
                 <h3>Wake Tech</h3>
                 <p>Library Events</p>
             </div>
-            <ul>
+<ul>
                 <li>
-                    <a href="#" class="active">
-                        <span class="icon"><i class="fa-solid fa-bars"></i></span>
-                        <span class="item">Home</span>
-                    </a>
+                  <span class="icon"><i class="fa-solid fa-user-graduate"></i></span>
+                  <span class="item">Adulting Life Skills</span>
+                </li>
+                <li>
+                  <a href="#">
+                      <span class="icon"><i class="fa-solid fa-spa"></i></span>
+                      <span class="item">Adulting 101: Mindfulness</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                      <span class="icon"><i class="fas fa-user-shield"></i></span>
+                      <span class="item">Personal Style</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                      <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                      <span class="item">LinkedIn Basics</span>
+                  </a>
+                </li>
+                <li>
+                  <span class="icon"><i class="fa-brands fa-readme"></i></span>
+                  <span class="item">Information Literacy</span>
+                </li>
+                <li>
+                  <a href="#">
+                      <span class="icon"><i class="fa-solid fa-book-bookmark"></i></span>
+                      <span class="item">Library Resources</span>
+                  </a>
+                </li>
+                <li>
+                  <span class="icon"><i class="fa-solid fa-kitchen-set"></i></span>
+                  <span class="item">Crafts</span>
+                </li>
+                <li>
+                  <a href="#">
+                      <span class="icon"><i class="fas fa-cog"></i></span>
+                      <span class="item">Holiday Cards</span>
+                  </a>
+                </li>
+                <li>
+                  <span class="icon"><i class="fa-solid fa-network-wired"></i></span>
+                  <span class="item">Digital Literacy</span>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
+                        <span class="icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
                         <span class="item">Cell Phone Photography</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-user-friends"></i></span>
-                        <span class="item">Adulting 101: Mindfulness</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="item">Library Resources</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-database"></i></span>
+                        <span class="icon"><i class="fa-solid fa-server"></i></span>
                         <span class="item">Building Your Digital Portfolio</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-chart-line"></i></span>
-                        <span class="item">LinkedIn Basics</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-shield"></i></span>
-                        <span class="item">Personal Style</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-cog"></i></span>
-                        <span class="item">Holiday Cards</span>
-                    </a>
-                </li>
-    </ul>
-    </div>
-<ul>
-
+            </ul>
 </div>
 </div>
     <div id="photo" style="float: left;">
@@ -76,14 +103,14 @@
       <p class="Attend_library_programs_and_workshops">Attend Library programs and workshops.</p>
       <p class="Get_One_Square_Credit">Get one square credit per program.</p>
       <h3 class="Categories">Workshop Categories</h3>
-      <p class="__Information_Literacy"> = Information Literacy</p>
-      <input type="image" src="Purple_Square.png" class="InfLiteracy" onclick="ChangeTextIL()" alt="Information Literacy" style=border: solid 1px #000000;>
-      <p class="__Digital_Literacy"> = Digital Literacy</p>
-      <input type="image" src="Green_Square.png" class="DigitLiteracy" onclick="ChangeTextDL()" alt="Digital Literacy" style=border: solid 1px #000000;>
-      <p class="__Adulting_Life_Skills"> = Adulting Life Skills</p>
-      <input type="image" src="Red_Square.png" class="AdultSkills" onclick="ChangeTextAD()" alt="Adulting Skills" style=border: solid 1px #000000;>
-      <p class="__Crafts"> = Crafts</p>
-      <input type="image" src="Blue_Square.png" class="CraftSkills" onclick="ChangeTextCR()" alt="Craft Skills" style=border: solid 1px #000000;>
+      <p class="__Information_Literacy">  = Information Literacy</p>
+      <input type="image" src="Purple_Square.png" class="InfLiteracy" onclick="ChangeTextIL()" alt="Information Literacy" style=border:solid 1px #000000;>
+      <p class="__Digital_Literacy">  = Digital Literacy</p>
+      <input type="image" src="Green_Square.png" class="DigitLiteracy" onclick="ChangeTextDL()" alt="Digital Literacy" style=border:solid 1px #000000;>
+      <p class="__Adulting_Life_Skills">  = Adulting Life Skills</p>
+      <input type="image" src="Red_Square.png" class="AdultSkills" onclick="ChangeTextAD()" alt="Adulting Skills" style=border:solid 1px #000000;>
+      <p class="__Crafts">  = Crafts</p>
+      <input type="image" src="Blue_Square.png" class="CraftSkills" onclick="ChangeTextCR()" alt="Craft Skills" style=border:solid 1px #000000;>
       <p class="UpcomingEvents">See upcoming events here:</p>
       <p class="LibraryEvents"><a href="https://waketech.libcal.com/calendar/libraryevents">https://waketech.libcal.com/calendar/libraryevents</a></p>
       <p><button type="button" id="right" class="myButton" onclick="printPage()">Print Page</button>
@@ -98,7 +125,6 @@
       <br />
       <div id="button-group" class="btn-group">
         <div class="Row_1">
-          
           <button type="button" class="Green_Square_ROne"><input type="checkbox" id="G1"></button>
           <button type="button"  class="Purple_Square_ROne"><input type="checkbox" id="P1"></button>
           <button type="button" class="Blue_Square_ROne"><input type="checkbox" id="B1"></button>
@@ -134,13 +160,12 @@
           <button type="button" class="Red_Square_RFive"><input type="checkbox" id="R5"></button>
       </div>
     </div>
-      <script>
-    var hamburger = document.querySelector(".hamburger");
+    <script>
+      var hamburger = document.querySelector(".hamburger");
       hamburger.addEventListener("click", () => {
         document.querySelector("body").classList.toggle("active");
-      })
-
-       function changeText() {
+        })
+        function changeText() {
         this.innerHTML="COURSE TAKEN";
       }
       function printPage() {
@@ -161,6 +186,6 @@
       function ChangeTextFR() {
         document.getElementById("divElementCaption").innerHTML = "This block does not need to be filled by a program or workshop.";
       }
-    </script>
+      </script>
   </body>
 </html>
