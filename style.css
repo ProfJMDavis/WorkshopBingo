@@ -10,7 +10,8 @@ body {
   overflow: hidden;
 }
 body.active .wrapper .sidebar{
-    right: -125px;
+    right: -350px;
+    z-index: 55;
 }
 
 body.active .wrapper .section{
@@ -18,15 +19,15 @@ body.active .wrapper .section{
     width: 100%;
 }
 .wrapper .section{
-    width: calc(100% - 225px);
-    margin-left: 125px;
+    width: calc(100% - 350px);
+    margin-left: 350px;
     transition: all 0.5s ease;
 	z-index: 50;
 }
 
 .wrapper .section .top_navbar{
     background: rgb(7, 105, 185);
-    height: 50px;
+    height: 35px;
     display: flex;
     align-items: right;
     padding: 0 30px;
