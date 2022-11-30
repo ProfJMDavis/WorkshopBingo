@@ -634,7 +634,6 @@ details[open] > summary {
 }
 body.active .wrapper .sidebar{
     right: -350px;
-    z-index: 55;
 }
 
 body.active .wrapper .section{
