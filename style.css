@@ -531,7 +531,7 @@ details > summary {
 details > p {
 	position: fixed;
 	top: 260px;
-	max-width: 100%;
+	max-width: 90%;
 	border-radius: 0 0 2px 2px;
 	background-color: white;
 	padding: 2px 6px;
@@ -542,7 +542,7 @@ details > p {
 details[open] > summary {  
 	padding: 4px 6px;
 	background-color: #ccf;
-	width: 80%;
+	max-width: 460px;
 	box-shadow: 1px 1px 2px black;
 	border: none;
 	cursor: pointer;
