@@ -635,20 +635,19 @@ body.active .wrapper .section{
 	position: fixed;
 	top: 0;
 	right: 0;
-	width: 350px;
+	width: 400px;
 	height: 100%;
 	z-index: 60;
 	padding-top: 20px;
 	padding-left: 5px;
-	transition: all 0.5s ease;
 }
 .wrapper .sidebar .profile{
-    margin-bottom: 30px;
-    text-align: center;
+	margin-bottom: 30px;
+	padding-left: 75px;
 }
 
 .wrapper .sidebar .profile img{
-    display: block;
+    display: inline;
     width: 100px;
     height: 100px;
     border-radius: 50%;
