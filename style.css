@@ -521,7 +521,12 @@ details {
 }
 
 details > summary {
-	background-color: #ddd;
+	padding: 4px 6px;
+	background-color: #ddf;
+	width: 80%;
+	box-shadow: 1px 1px 2px black;
+	border: none;
+	cursor: pointer;
 }
 
 details > p {
@@ -537,8 +542,9 @@ details > p {
 details[open] > summary {  
 	padding: 4px 6px;
 	background-color: #ccf;
-	width: 100%;
+	width: 80%;
 	box-shadow: 1px 1px 2px black;
+	border: none;
 	cursor: pointer;
 }
 
