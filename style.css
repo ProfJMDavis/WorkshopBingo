@@ -21,7 +21,7 @@ body {
 	border: 1px solid green;
 	top: 0px;
 	height: 800px;
-	width: 500px;
+	width: 455px;
 	padding: 2px;
 }
 
@@ -31,10 +31,8 @@ body {
 }
 
 .Library_Program_Bingo {
-	font-size: 30px;
-	font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
-	color: rgb(58, 58, 58);
-	font-weight: bold;
+	font-size: 24px;
+	color: black;
 	line-height: 1.2;
 	text-align: left;
 	position: fixed;
@@ -43,27 +41,23 @@ body {
 	z-index: 6;
 }
 .Attend_library_programs_and_workshops {
-	font-size: 16px;
-	font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
-	color: rgb(58, 58, 58);
-	font-weight: bold;
+	font-size: 14px;
+	color: black;
 	line-height: 1.2;
 	text-align: left;
-	position: fixed;
+	position: relative;
 	left: 15px;
-	top: 70px;
+	top: 20px;
 	z-index: 7;
 }
 .Get_One_Square_Credit {
-	font-size: 16px;
-	font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
-	color: rgb(58, 58, 58);
-	font-weight: bold;
+	font-size: 14px;
+	color: black;
 	line-height: 1.2;
 	text-align: left;
-	position: fixed;
+	position: relative;
 	left: 15px;
-	top: 60px;
+	top: 20px;
 	z-index: 7;
 }
 .printButton {
@@ -83,7 +77,6 @@ body {
 	text-decoration: none;
 }
 .Categories {
-	font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
 	color: rgb(58, 58, 58);
 	font-weight: bold;
 	line-height: 1.2;
