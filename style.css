@@ -3,6 +3,13 @@
 	margin: 0;
 	font-family: "Berlin Sans FB Demi", Calibri, sans-serif;
 }
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+		width: 100%;
+	}
+}
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -725,5 +732,6 @@ body.active .wrapper .section{
 ul {
   list-style: none;
 }
+
 
 
