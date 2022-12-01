@@ -66,7 +66,7 @@ body {
 	border: 1px solid #4b8f29;
 	display: inline;
 	position: fixed;
-	left: 280px;
+	right: 120px;
 	top: 45px;
 	cursor: pointer;
 	color: #f0ebf0;
@@ -516,7 +516,8 @@ body {
 details {
 	position: fixed;
 	top: 640px;
-	font: 14px "Open Sans", Calibri, sans-serif;
+	font-size: 14px;
+	font-family: "Arial", Calibri, sans-serif;
 }
 
 details > summary {
@@ -572,28 +573,27 @@ details[open] > summary {
 }
 .UpcomingEvents {
 	font-size: 14px;
-	font-family: "Berlin Sans FB Demi";
 	color: rgb(58, 58, 58);
 	font-weight: bold;
 	line-height: 1.2;
 	text-align: left;
 	position: fixed;
 	left: 10px;
-	bottom: 190px;
+	bottom: 40px;
 	z-index: 10;
 }
 .LibraryEvents {
-  font-size: 12px;
-  font-family: "Arial";
-  color: rgb(59, 39, 255);
-  font-weight: bold;
-  text-decoration: underline;
-  line-height: 1.2;
-  text-align: left;
-  position: fixed;
-  left: 10px;
-  bottom: 140px;
-  z-index: 9;
+	font-size: 12px;
+	font-family: "Arial", Calibri, sans-serif;
+	color: rgb(59, 39, 255);
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 1.2;
+	text-align: left;
+	position: fixed;
+	left: 10px;
+	bottom: 20px;
+	z-index: 9;
 }
 body.active .wrapper .sidebar{
     right: -350px;
