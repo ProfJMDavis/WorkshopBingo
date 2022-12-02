@@ -643,8 +643,12 @@ body.active .wrapper .section{
 	padding-left: 5px;
 }
 .wrapper .sidebar .profile{
+	background: light-blue;
 	margin-bottom: 30px;
 	padding-left: 75px;
+}
+.wrapper .sidebar .profile a:{
+	color: #000000;
 }
 
 .wrapper .sidebar .profile img{
