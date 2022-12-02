@@ -600,7 +600,7 @@ details[open] > summary {
 	z-index: 9;
 }
 body.active .wrapper .sidebar{
-	right: -350px;
+	right: -400px;
 }
 
 body.active .wrapper .section{
