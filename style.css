@@ -643,11 +643,11 @@ body.active .wrapper .section{
 	padding-left: 5px;
 }
 .wrapper .sidebar .profile{
-	background: lightblue;
+	background: cyan;
 	margin-bottom: 30px;
 	padding-left: 75px;
 }
-.wrapper .sidebar .profile a:{
+.wrapper .sidebar .profile a {
 	color: #000000;
 }
 
