@@ -645,11 +645,11 @@ body.active .wrapper .section{
 .wrapper .sidebar .profile{
 	background: rgb(5 68 104);
 	border: 3px solid gold;
-	margin: 4px;
 	padding: 4px;
 }
 .wrapper .sidebar .profile a {
 	color: rgb(206, 240, 253);
+        text-decoration: none;
 }
 
 .wrapper .sidebar .profile img{
